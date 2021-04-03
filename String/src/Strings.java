@@ -13,5 +13,10 @@ public class Strings {
         numberString = numberString + "49.95";
         System.out.println(numberString);
 
+        String lastString = "10";
+        int myInt = 50;
+        lastString = lastString + myInt;
+        System.out.println("LastString is equal to " + lastString);
+
     }
 }
