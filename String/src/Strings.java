@@ -17,6 +17,8 @@ public class Strings {
         int myInt = 50;
         lastString = lastString + myInt;
         System.out.println("LastString is equal to " + lastString);
+        double doubleNumber = 120.47d;
+        System.out.println("LastString is equal to " + lastString);
 
     }
 }
