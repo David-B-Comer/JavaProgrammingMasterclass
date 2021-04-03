@@ -43,5 +43,14 @@ public class Main {
 
         short myNewShortValue = (short)(myMinShortValue / 2);
 
+
+        byte byteValue = 10;
+        short shortValue = 20;
+        int intValue = 50;
+
+
+        long longTotal = 50_000L + 10L * (byteValue + shortValue + intValue);
+        System.out.println(longTotal);
+
     }
 }
