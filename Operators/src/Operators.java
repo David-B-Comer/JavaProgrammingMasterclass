@@ -24,6 +24,8 @@ public class Operators {
         result++; // 1 + 1 = 2
         System.out.println("1 + 1 = " + result);
 
+        result--; // 2 - 1 = 1
+        System.out.println("2 - 1 = " + result);
 
     }
 }
