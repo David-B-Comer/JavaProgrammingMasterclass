@@ -41,5 +41,10 @@ public class Operators {
         result /= 3; // 30 / 3 = 10
         System.out.println("30 / 3 = " + result);
 
+
+        //result = result - 2
+        result -= 2; // 10 - 2 = 8
+        System.out.println("10 - 2 = " + result);
+
     }
 }
