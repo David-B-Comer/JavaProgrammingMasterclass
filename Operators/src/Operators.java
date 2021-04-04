@@ -36,5 +36,10 @@ public class Operators {
         result *= 10; // 3 * 10 = 30
         System.out.println("3 * 10 = " + result);
 
+
+        // result = result / 3
+        result /= 3; // 30 / 3 = 10
+        System.out.println("30 / 3 = " + result);
+
     }
 }
