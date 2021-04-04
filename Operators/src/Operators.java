@@ -32,5 +32,9 @@ public class Operators {
         result += 2; // 1 + 2 = 3
         System.out.println("1 + 2 = " + result);
 
+        // result = result * 10;
+        result *= 10; // 3 * 10 = 30
+        System.out.println("3 * 10 = " + result);
+
     }
 }
