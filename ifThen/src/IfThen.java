@@ -5,5 +5,6 @@ public class IfThen {
         boolean isAlien = false;
         if (isAlien == true)
             System.out.println("It is not an alien!");
+            System.out.println("And I am scared of aliens");
     }
 }
