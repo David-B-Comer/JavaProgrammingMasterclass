@@ -13,9 +13,11 @@ public class IfThen {
             System.out.println("You got the high score!");
         }
 
-        int secondTopScore = 60;
-        if (topScore > secondTopScore && topScore < 100) {
+        int secondTopScore = 81;
+        if ((topScore > secondTopScore) && (topScore < 100)) {
             System.out.println("Greater than second high score and less than 100");
         }
+
+
     }
 }
