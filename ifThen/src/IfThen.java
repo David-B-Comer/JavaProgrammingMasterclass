@@ -18,6 +18,10 @@ public class IfThen {
             System.out.println("Greater than second high score and less than 100");
         }
 
+        if ((topScore > 90) || (secondTopScore <= 90)) {
+            System.out.println("Either of both of the conditions are true");
+
+        }
 
     }
 }
