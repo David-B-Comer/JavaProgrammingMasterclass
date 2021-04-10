@@ -39,6 +39,8 @@ public class IfThen {
         }
 
         double num1 = 20.00;
+        double num2 = 80.00;
+
 
     }
 }
