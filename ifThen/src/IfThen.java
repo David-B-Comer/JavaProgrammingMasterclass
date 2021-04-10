@@ -38,5 +38,7 @@ public class IfThen {
             System.out.println("wasCar is true");
         }
 
+        double num1 = 20.00;
+
     }
 }
