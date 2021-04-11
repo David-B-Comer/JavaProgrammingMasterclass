@@ -43,6 +43,7 @@ public class IfThen {
         double total = (num1 + num2) * 100.00;
         double remainder = total % 40.00;
         boolean isNoRemainder = (remainder == 0) ? true : false;
+        System.out.println("isNoRemainder = " + isNoRemainder);
 
 
     }
