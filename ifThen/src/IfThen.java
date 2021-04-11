@@ -41,6 +41,7 @@ public class IfThen {
         double num1 = 20.00;
         double num2 = 80.00;
         double total = (num1 + num2) * 100.00;
+        double remainder = total % 40.00;
 
 
     }
