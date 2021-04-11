@@ -42,6 +42,7 @@ public class IfThen {
         double num2 = 80.00;
         double total = (num1 + num2) * 100.00;
         double remainder = total % 40.00;
+        boolean isNoRemainder = (remainder == 0) ? true : false;
 
 
     }
