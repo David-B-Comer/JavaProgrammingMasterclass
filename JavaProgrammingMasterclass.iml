@@ -8,6 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/CharAndBoolean/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FloatAndDouble/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Operators/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StatementsWhitespaceAndIndentation/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/String/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ifThen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/keywordsAndExpressions/src" isTestSource="false" />
