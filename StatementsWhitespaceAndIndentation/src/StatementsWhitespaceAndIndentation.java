@@ -7,5 +7,10 @@ public class StatementsWhitespaceAndIndentation {
         myVariable--;
         System.out.println("This is a test");
 
+        System.out.println("This is" +
+                            " another" +
+                            " still more.");
+
+
     }
 }
