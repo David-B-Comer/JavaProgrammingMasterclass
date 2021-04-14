@@ -6,6 +6,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ByteShortIntLong/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/HelloWorld/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CharAndBoolean/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CodeBlocks/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FloatAndDouble/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Operators/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StatementsWhitespaceAndIndentation/src" isTestSource="false" />
