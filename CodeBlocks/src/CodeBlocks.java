@@ -28,4 +28,11 @@ public class CodeBlocks {
         }
         return -1;
     }
+
+    public static void displayHighScorePosition(String playerName, int highScorePosition) {
+
+        System.out.println(playerName + " managed to get into position " + highScorePosition + " on the high score table");
+    }
+
+
 }
