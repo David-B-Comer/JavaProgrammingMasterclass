@@ -17,8 +17,17 @@ public class CodeBlocks {
         highScore = calculateScore(gameOver, score, levelCompleted, bonus);
         System.out.println("Your final score was " + highScore);
 
+        int highScorePosition = calculateHighScorePosition(1500);
+        displayHighScorePosition("Dave", highScorePosition);
 
+        highScorePosition = calculateHighScorePosition(900);
+        displayHighScorePosition("Amber", highScorePosition);
 
+        highScorePosition = calculateHighScorePosition(400);
+        displayHighScorePosition("Elwood", highScorePosition);
+
+        highScorePosition = calculateHighScorePosition(50);
+        displayHighScorePosition("Bruno", highScorePosition);
     }
 
     public static int calculateScore(boolean gameOver, int score, int levelCompleted, int bonus) {
@@ -38,11 +47,11 @@ public class CodeBlocks {
 
     public static int calculateHighScorePosition(int playerScore) {
 
-        if (playerScore > 100) {
+        if (playerScore >= 1000) {
             return 1;
-        } else if (playerScore > 500 && playerScore < 1000) {
+        } else if (playerScore >= 500 && playerScore < 1000) {
             return 2;
-        } else if (playerScore > 100 && playerScore < 500) {
+        } else if (playerScore >= 100 && playerScore < 500) {
             return 3;
         } else {
             return 4;
