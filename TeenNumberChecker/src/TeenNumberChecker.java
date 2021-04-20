@@ -7,4 +7,10 @@ public class TeenNumberChecker {
         return false;
     }
 
+    public static boolean isTeen(int value) {
+        if (value >= 13 && value <= 19) {
+            return true;
+        }
+        return false;
+    }
 }
