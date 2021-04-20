@@ -18,6 +18,7 @@
       <sourceFolder url="file://$MODULE_DIR$/SpeedConverter/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/StatementsWhitespaceAndIndentation/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/String/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/TeenNumberChecker/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ifThen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/keywordsAndExpressions/src" isTestSource="false" />
     </content>
