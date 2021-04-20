@@ -13,6 +13,7 @@
       <sourceFolder url="file://$MODULE_DIR$/FloatAndDouble/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LeapYear/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MegaBytesConverter/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MethodOverloading/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Operators/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PositiveNegativeZero/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SpeedConverter/src" isTestSource="false" />
