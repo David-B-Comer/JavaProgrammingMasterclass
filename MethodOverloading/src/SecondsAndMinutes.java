@@ -15,6 +15,7 @@ public class SecondsAndMinutes {
             return INVALID_VALUE_MESSAGE;
         }
         long hours = minutes / 60;
+
         long remainingMinutes = minutes % 60;
 
         String hoursString = hours + "h";
