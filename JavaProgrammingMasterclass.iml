@@ -14,6 +14,7 @@
       <sourceFolder url="file://$MODULE_DIR$/LeapYear/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MegaBytesConverter/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MethodOverloading/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/MinutesToYearsDaysCalculator/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Operators/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PositiveNegativeZero/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SecondsAndMinutes/src" isTestSource="false" />
