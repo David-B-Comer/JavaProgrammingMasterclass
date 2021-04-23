@@ -27,10 +27,35 @@ public class Switch {
                 break;
 
             default:
-                System.out.println("Was not 1 or 2");
+                System.out.println("Was not 1, 2, 3, 4 or 5");
                 break;
         }
 
         // more code here
+
+
+
+
+
+
+        char charValue = 'D';
+
+        switch(charValue) {
+            case 'A':
+                System.out.println("A was found");
+                break;
+
+            case 'B':
+                System.out.println("B was found");
+                break;
+
+            case 'C': case 'D': case 'E':
+                System.out.println(charValue + " was found");
+                break;
+
+            default:
+                System.out.println("Could not find A, B, C, D, or E");
+                break;
+        }
     }
 }
