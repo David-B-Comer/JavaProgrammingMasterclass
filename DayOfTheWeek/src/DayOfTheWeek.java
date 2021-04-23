@@ -27,6 +27,7 @@ public class DayOfTheWeek {
             default:
                 System.out.println("Invalid day");
                 break;
+
         }
     }
 }
