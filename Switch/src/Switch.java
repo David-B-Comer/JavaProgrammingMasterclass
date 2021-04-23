@@ -1,3 +1,5 @@
+
+
 public class Switch {
 
     public static void main(String[] args) {
@@ -61,12 +63,12 @@ public class Switch {
 
 
 
-        String month = "January";
-        switch (month) {
-            case "January":
+        String month = "january";
+        switch (month.toLowerCase()) {
+            case "january":
                 System.out.println("Jan");
                 break;
-            case "June":
+            case "june":
                 System.out.println("Jun");
                 break;
             default:
