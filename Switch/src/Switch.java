@@ -57,5 +57,20 @@ public class Switch {
                 System.out.println("Could not find A, B, C, D, or E");
                 break;
         }
+
+
+
+
+        String month = "January";
+        switch (month) {
+            case "January":
+                System.out.println("Jan");
+                break;
+            case "June":
+                System.out.println("Jun");
+                break;
+            default:
+                System.out.println("Not sure");
+        }
     }
 }
