@@ -64,11 +64,11 @@ public class Switch {
 
 
         String month = "january";
-        switch (month.toLowerCase()) {
-            case "january":
+        switch (month.toUpperCase()) {
+            case "JANUARY":
                 System.out.println("Jan");
                 break;
-            case "june":
+            case "JUNE":
                 System.out.println("Jun");
                 break;
             default:
