@@ -21,6 +21,24 @@ public class forStatement {
             System.out.println("10,000 at " + i + "% interest = " + String.format("%.2f", calculateInterest(10000.0, i)));
         }
 
+
+
+        System.out.println("*******************************************");
+
+        int count = 0;
+
+        for (int i = 10; i < 50; i++) {
+            if (isPrime(i)){
+                System.out.println("Number " + i + " is a prime number");
+                count ++;
+                if (count == 10) {
+                    System.out.println("Exiting for loop");
+                    break;
+                }
+            }
+
+        }
+
     }
 
 
