@@ -13,5 +13,15 @@ public class WhileAndDoWhile {
         for (count = 1; count < 6; count++) {
             System.out.println("Count value is " + count);
         }
+
+        count = 1;
+        while (true) {
+            if (count == 6) {
+              break;
+            }
+            System.out.println("Count value is " + count);
+            count++;
+        }
+
     }
 }
