@@ -33,6 +33,7 @@
       <sourceFolder url="file://$MODULE_DIR$/forStatement/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ifThen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/keywordsAndExpressions/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WhileAndDoWhile/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
