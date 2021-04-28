@@ -23,5 +23,13 @@ public class WhileAndDoWhile {
             count++;
         }
 
+        System.out.println("**********************");
+
+        count = 1;
+        do {
+            System.out.println("Count value was " + count);
+            count++;
+        } while (count != 6);
+
     }
 }
