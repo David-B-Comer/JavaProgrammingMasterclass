@@ -31,6 +31,19 @@ public class WhileAndDoWhile {
             count++;
         } while (count != 6);
 
+
+
+        int number = 4;
+        int finishNumber = 20;
+
+        while (number <= finishNumber) {
+            number++;
+            if (!isEvenNumber(number)) {
+                continue;
+            }
+
+            System.out.println("Even number " + number);
+        }
     }
 
 
