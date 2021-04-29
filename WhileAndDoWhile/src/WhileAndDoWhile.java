@@ -35,6 +35,7 @@ public class WhileAndDoWhile {
 
         int number = 4;
         int finishNumber = 20;
+        int evenCount = 0;
 
         while (number <= finishNumber) {
             number++;
@@ -43,7 +44,15 @@ public class WhileAndDoWhile {
             }
 
             System.out.println("Even number " + number);
+
+            evenCount++;
+            if (evenCount >= 5) {
+                break;
+            }
         }
+
+        System.out.println("Total even numbers found = " + evenCount);
+
     }
 
 
