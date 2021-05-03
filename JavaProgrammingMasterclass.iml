@@ -40,6 +40,7 @@
       <sourceFolder url="file://$MODULE_DIR$/GreatestCommonDivisor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LastDigitChecker/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NumberPalindrome/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PerfectNumber/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SharedDigit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WhileAndDoWhile/src" isTestSource="false" />
     </content>
