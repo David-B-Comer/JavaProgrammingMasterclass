@@ -35,6 +35,7 @@
       <sourceFolder url="file://$MODULE_DIR$/keywordsAndExpressions/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DigitSum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EvenDigitSum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FactorPrinter/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstLastDigitSum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GreatestCommonDivisor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LastDigitChecker/src" isTestSource="false" />
