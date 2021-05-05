@@ -39,6 +39,7 @@
       <sourceFolder url="file://$MODULE_DIR$/FirstLastDigitSum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FlourPacker/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GreatestCommonDivisor/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/LargestPrime/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LastDigitChecker/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NumberPalindrome/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NumberToWords/src" isTestSource="false" />
