@@ -6,9 +6,8 @@ public class MinimumAndMaximumChallenge {
 
             Scanner scanner = new Scanner(System.in);
 
-            int minimum = 0;
-            int maximum = 0;
-            boolean first = true;
+            int minimum = Integer.MAX_VALUE;
+            int maximum = Integer.MIN_VALUE;
 
             while (true) {
 
@@ -19,12 +18,6 @@ public class MinimumAndMaximumChallenge {
                 if (isAnInt) {
 
                     int number = scanner.nextInt();
-
-                    if (first) {
-                        first = false;
-                        minimum = number;
-                        maximum = number;
-                    }
 
                     if (number > maximum) {
                         maximum = number;
