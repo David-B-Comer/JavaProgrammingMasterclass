@@ -47,6 +47,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ParsingValueFromString/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PerfectNumber/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInput/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ReadingUserInputChallenge/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SharedDigit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WhileAndDoWhile/src" isTestSource="false" />
     </content>
