@@ -13,4 +13,13 @@ public class PaintJob {
     }
 
 
+    public static int getBucketCount(double width, double height, double areaPerBucket) {
+
+        return getBucketCount(width, height, areaPerBucket, 0);
+
+    }
+
+
+
+
 }
