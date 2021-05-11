@@ -42,6 +42,7 @@
       <sourceFolder url="file://$MODULE_DIR$/FlourPacker/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GreatestCommonDivisor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InputCalculator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JPMC/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LargestPrime/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LastDigitChecker/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MinimumAndMaximumChallenge/src" isTestSource="false" />
