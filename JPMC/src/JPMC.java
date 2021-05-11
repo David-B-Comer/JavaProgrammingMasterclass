@@ -4,7 +4,12 @@ public class JPMC {
 
     // list of integers
     // check if duplicate number exists
+    public static void main(String[] args) {
 
+        int [] numbers = {23, 3 , 5, 7, 99, 23, 11};
+
+        System.out.println(isDuplicate(numbers));
+    }
 
     public static boolean isDuplicate(int[] numbers) {
 
