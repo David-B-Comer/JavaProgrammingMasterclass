@@ -4,5 +4,7 @@ public class Cars {
 
         Car porsche = new Car();
         Car holden = new Car();
+
+        porsche.setModel("Carrera");
     }
 }
