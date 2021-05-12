@@ -1,3 +1,5 @@
+
+
 public class Car {
 
     private int doors;
@@ -8,7 +10,13 @@ public class Car {
 
 
     public void setModel(String model) {
-        this.model = model;
+        String validModel = model.toLowerCase();
+
+        if (validModel.equals("carrera") || validModel.equals("commodore")) {
+            this.model = model;
+        } else {
+            this.model = "Unknown";
+        }
     }
 
     public String getModel() {
