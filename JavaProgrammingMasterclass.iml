@@ -54,6 +54,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInput/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInputChallenge/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SharedDigit/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/SimpleCalculator/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WhileAndDoWhile/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
