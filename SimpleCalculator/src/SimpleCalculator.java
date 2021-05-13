@@ -32,5 +32,12 @@ public class SimpleCalculator {
         return firstNumber * secondNumber;
     }
 
+    public double getDivisionResult() {
+        if (secondNumber == 0) {
+            return 0;
+        }
+        return firstNumber / secondNumber;
+    }
+
 
 }
