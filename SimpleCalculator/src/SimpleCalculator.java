@@ -4,4 +4,8 @@ public class SimpleCalculator {
     private double secondNumber;
 
 
+    public double getFirstNumber() {
+        return firstNumber;
+    }
+
 }
