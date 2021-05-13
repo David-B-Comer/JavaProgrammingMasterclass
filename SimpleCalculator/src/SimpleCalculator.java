@@ -8,4 +8,9 @@ public class SimpleCalculator {
         return firstNumber;
     }
 
+    public void setFirstNumber(double firstNumber) {
+        this.firstNumber = firstNumber;
+    }
+
+
 }
