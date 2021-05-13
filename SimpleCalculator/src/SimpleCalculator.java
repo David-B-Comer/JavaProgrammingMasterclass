@@ -24,6 +24,8 @@ public class SimpleCalculator {
         return firstNumber + secondNumber;
     }
 
-
+    public double getSubtractionResult() {
+        return firstNumber - secondNumber;
+    }
 
 }
