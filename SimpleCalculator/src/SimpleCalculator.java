@@ -12,5 +12,9 @@ public class SimpleCalculator {
         this.firstNumber = firstNumber;
     }
 
+    public double getSecondNumber() {
+        return secondNumber;
+    }
+
 
 }
