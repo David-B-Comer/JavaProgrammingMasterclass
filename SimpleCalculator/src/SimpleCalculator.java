@@ -16,5 +16,9 @@ public class SimpleCalculator {
         return secondNumber;
     }
 
+    public void setSecondNumber(double secondNumber) {
+        this.secondNumber = secondNumber;
+    }
+
 
 }
