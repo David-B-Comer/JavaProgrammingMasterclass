@@ -20,5 +20,10 @@ public class SimpleCalculator {
         this.secondNumber = secondNumber;
     }
 
+    public double getAdditionResult() {
+        return firstNumber + secondNumber;
+    }
+
+
 
 }
