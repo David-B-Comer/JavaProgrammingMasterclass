@@ -51,6 +51,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PaintJob/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ParsingValueFromString/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PerfectNumber/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Person/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInput/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInputChallenge/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SharedDigit/src" isTestSource="false" />
