@@ -38,4 +38,10 @@ public class BankAccount {
         this.email = email;
     }
 
+    public String getPhoneNumber() {
+        return phoneNumber;
+    }
+
+
+
 }
