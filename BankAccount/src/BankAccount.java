@@ -14,5 +14,9 @@ public class BankAccount {
         this.accountNumber = accountNumber;
     }
 
+    public double getBalance() {
+        return balance;
+    }
+
 
 }
