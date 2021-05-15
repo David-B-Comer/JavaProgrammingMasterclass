@@ -3,7 +3,11 @@ public class BankAccount {
 
     public static void main(String[] args) {
 
-        BankAccount bankAccount = new BankAccount();
+        BankAccount bankAccount = new BankAccount("12345", 0.00, "Bob Brown", "myemail@bob.com", "(087) 123-4567");
+
+        System.out.println(bankAccount.getAccountNumber());
+        System.out.println(bankAccount.getBalance());
+
         bankAccount.withdraw(100.0);
 
         bankAccount.deposit(50.0);
@@ -20,6 +24,20 @@ public class BankAccount {
     private String customerName;
     private String email;
     private String phoneNumber;
+
+
+    public BankAccount() {
+        System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
+        System.out.println("Constructor with parameters called");
+        this.accountNumber = accountNumber;
+        this.balance = balance;
+        this.customerName = customerName;
+        this.email = email;
+        this.phoneNumber = phoneNumber;
+    }
 
     public String getAccountNumber() {
         return accountNumber;
