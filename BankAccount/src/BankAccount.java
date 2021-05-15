@@ -6,4 +6,9 @@ public class BankAccount {
     private String email;
     private String phoneNumber;
 
+    public String getAccountNumber() {
+        return accountNumber;
+    }
+
+
 }
