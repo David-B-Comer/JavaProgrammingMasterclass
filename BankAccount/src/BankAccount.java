@@ -26,5 +26,8 @@ public class BankAccount {
         return customerName;
     }
 
+    public void setCustomerName(String customerName) {
+        this.customerName = customerName;
+    }
 
 }
