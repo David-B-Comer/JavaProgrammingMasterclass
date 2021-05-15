@@ -1,5 +1,20 @@
 public class BankAccount {
 
+
+    public static void main(String[] args) {
+
+        BankAccount bankAccount = new BankAccount();
+        bankAccount.withdraw(100.0);
+
+        bankAccount.deposit(50.0);
+        bankAccount.withdraw(100.0);
+
+        bankAccount.deposit(51.0);
+        bankAccount.withdraw(100.0);
+    }
+
+
+
     private String accountNumber;
     private double balance;
     private String customerName;
