@@ -22,5 +22,9 @@ public class BankAccount {
         this.balance = balance;
     }
 
+    public String getCustomerName() {
+        return customerName;
+    }
+
 
 }
