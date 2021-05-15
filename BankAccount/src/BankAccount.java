@@ -46,5 +46,11 @@ public class BankAccount {
         this.phoneNumber = phoneNumber;
     }
 
+    public void deposit(double amount) {
+        this.balance += amount;
+        System.out.println("Deposit of " + amount + " made. New balance is " + this.balance);
+    }
+
+
 
 }
