@@ -51,6 +51,14 @@ public class BankAccount {
         System.out.println("Deposit of " + amount + " made. New balance is " + this.balance);
     }
 
+    public void withdraw(double amount) {
+        if (this.balance - amount < 0) {
+            System.out.println("Only " + this.balance + " available. Withdraw not processed");
+        } else {
+            this.balance -= amount;
+            System.out.println("Withdraw of " + amount + " processed. Remaining balance = " + this.balance);
 
+        }
+    }
 
 }
