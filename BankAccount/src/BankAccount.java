@@ -30,4 +30,8 @@ public class BankAccount {
         this.customerName = customerName;
     }
 
+    public String getEmail() {
+        return email;
+    }
+
 }
