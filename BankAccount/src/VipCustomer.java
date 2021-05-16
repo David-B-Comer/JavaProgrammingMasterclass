@@ -22,4 +22,9 @@ public class VipCustomer {
         return name;
     }
 
+    public double getCreditLimit() {
+        return creditLimit;
+    }
+
+
 }
