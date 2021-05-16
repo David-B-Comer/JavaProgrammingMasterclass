@@ -17,4 +17,9 @@ public class VipCustomer {
         this.creditLimit = creditLimit;
         this.email = email;
     }
+
+    public String getName() {
+        return name;
+    }
+
 }
