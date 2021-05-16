@@ -15,6 +15,10 @@ public class BankAccount {
 
         bankAccount.deposit(51.0);
         bankAccount.withdraw(100.0);
+
+
+        BankAccount myBankAccount = new BankAccount("Dave", "Dave@email.com", "12345");
+        System.out.println(myBankAccount.getAccountNumber() + " name " + myBankAccount.getCustomerName());
     }
 
 
@@ -27,7 +31,12 @@ public class BankAccount {
 
 
     public BankAccount() {
+        this("56789", 2.50, "Default name", "Default email", "Default number");
         System.out.println("Empty constructor called");
+    }
+
+    public BankAccount(String customerName, String email, String phoneNumber) {
+        this("99999", 100.55, customerName, email, phoneNumber);
     }
 
     public BankAccount(String accountNumber, double balance, String customerName, String email, String phoneNumber) {
