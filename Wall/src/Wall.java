@@ -20,5 +20,9 @@ public class Wall {
         }
     }
 
+    public double getWidth() {
+        return width;
+    }
+
 
 }
