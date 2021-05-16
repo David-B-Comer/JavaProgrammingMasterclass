@@ -26,5 +26,7 @@ public class VipCustomer {
         return creditLimit;
     }
 
-
+    public String getEmail() {
+        return email;
+    }
 }
