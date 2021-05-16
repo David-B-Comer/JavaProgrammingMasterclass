@@ -1,5 +1,18 @@
 public class VipCustomer {
 
+    public static void main(String[] args) {
+
+        VipCustomer vipCustomer1 = new VipCustomer();
+        System.out.println(vipCustomer1.getName());
+
+        VipCustomer vipCustomer2 = new VipCustomer("Dave", 25000.00);
+        System.out.println(vipCustomer2.getName());
+
+        VipCustomer vipCustomer3 = new VipCustomer("David", 100000.00, "David@email.com");
+        System.out.println(vipCustomer3.getName());
+        System.out.println(vipCustomer3.getEmail());
+    }
+
     private String name;
     private double creditLimit;
     private String email;
