@@ -32,5 +32,9 @@ public class Wall {
         }
     }
 
+    public double getHeight() {
+        return height;
+    }
+
 
 }
