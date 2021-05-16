@@ -24,5 +24,13 @@ public class Wall {
         return width;
     }
 
+    public void setWidth(double width) {
+        if (width < 0) {
+            this.width = 0;
+        } else {
+            this.width = width;
+        }
+    }
+
 
 }
