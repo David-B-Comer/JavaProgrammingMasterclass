@@ -19,5 +19,10 @@ public class Point {
         this.x = x;
     }
 
+    public int getY() {
+        return y;
+    }
+
+
 
 }
