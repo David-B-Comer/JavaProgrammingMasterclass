@@ -40,6 +40,7 @@
       <sourceFolder url="file://$MODULE_DIR$/EvenDigitSum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FactorPrinter/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FirstLastDigitSum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Floor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FlourPacker/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GreatestCommonDivisor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InputCalculator/src" isTestSource="false" />
