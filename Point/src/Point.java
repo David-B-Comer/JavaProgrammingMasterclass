@@ -31,4 +31,12 @@ public class Point {
         return Math.sqrt((getX() - x) * (getX() - x) + (getY() - y) * (getY() - y));
     }
 
+    public double distance() {
+        return distance(0,0);
+    }
+
+    public double distance(Point xy) {
+        return distance(xy.x, xy.y);
+    }
+
 }
