@@ -15,4 +15,9 @@ public class Point {
         return x;
     }
 
+    public void setX(int x) {
+        this.x = x;
+    }
+
+
 }
