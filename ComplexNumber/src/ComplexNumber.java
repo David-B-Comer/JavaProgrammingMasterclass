@@ -25,4 +25,9 @@ public class ComplexNumber {
         add(complexNumber.getReal(), complexNumber.getImaginary());
     }
 
+    public void subtract(double real, double imaginary) {
+        this.real -= real;
+        this.imaginary -= imaginary;
+    }
+
 }
