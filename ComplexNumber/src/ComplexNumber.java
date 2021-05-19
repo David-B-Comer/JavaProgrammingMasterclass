@@ -11,4 +11,8 @@ public class ComplexNumber {
     public double getReal() {
         return real;
     }
+
+    public double getImaginary() {
+        return imaginary;
+    }
 }
