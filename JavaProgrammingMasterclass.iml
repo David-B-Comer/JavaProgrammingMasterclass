@@ -35,6 +35,7 @@
       <sourceFolder url="file://$MODULE_DIR$/keywordsAndExpressions/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BankAccount/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Car/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ComplexNumber/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DiagonalStar/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/DigitSum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/EvenDigitSum/src" isTestSource="false" />
