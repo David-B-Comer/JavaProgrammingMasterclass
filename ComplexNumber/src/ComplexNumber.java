@@ -15,4 +15,10 @@ public class ComplexNumber {
     public double getImaginary() {
         return imaginary;
     }
+
+    public void add(double real, double imaginary) {
+        this.real += real;
+        this.imaginary += imaginary;
+    }
+
 }
