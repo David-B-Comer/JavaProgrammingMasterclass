@@ -21,4 +21,8 @@ public class Animal {
     public int getBrain() {
         return brain;
     }
+
+    public int getBody() {
+        return body;
+    }
 }
