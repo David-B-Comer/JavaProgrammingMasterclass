@@ -29,4 +29,8 @@ public class Animal {
     public int getSize() {
         return size;
     }
+
+    public int getWeight() {
+        return weight;
+    }
 }
