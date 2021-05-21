@@ -10,4 +10,9 @@ public class Fish extends Animal{
         this.eyes = eyes;
         this.fins = fins;
     }
+
+    private void rest() {
+
+    }
+
 }
