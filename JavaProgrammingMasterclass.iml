@@ -61,6 +61,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInputChallenge/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SharedDigit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SimpleCalculator/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Vehicle/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Wall/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WhileAndDoWhile/src" isTestSource="false" />
     </content>
