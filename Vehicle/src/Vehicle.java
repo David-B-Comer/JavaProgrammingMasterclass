@@ -28,4 +28,7 @@ public class Vehicle {
         return name;
     }
 
+    public String getSize() {
+        return size;
+    }
 }
