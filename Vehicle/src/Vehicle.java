@@ -23,4 +23,9 @@ public class Vehicle {
         currentDirection = direction;
         System.out.println("Vehicle.move(): Moving at " + currentVelocity + " in direction " + currentDirection);
     }
+
+    public String getName() {
+        return name;
+    }
+
 }
