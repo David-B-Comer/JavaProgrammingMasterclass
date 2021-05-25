@@ -1,3 +1,5 @@
+import static java.lang.Math.PI;
+
 public class Circle {
 
     private double radius;
@@ -12,5 +14,9 @@ public class Circle {
 
     public double getRadius() {
         return radius;
+    }
+
+    public double getArea() {
+        return (radius * radius * PI);
     }
 }
