@@ -14,4 +14,9 @@ public class Cylinder extends Circle{
     public double getHeight() {
         return height;
     }
+
+    public double getVolume() {
+        return getArea() * height;
+    }
+
 }
