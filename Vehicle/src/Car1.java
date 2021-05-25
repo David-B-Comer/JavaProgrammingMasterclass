@@ -14,4 +14,9 @@ public class Car1 extends Vehicle{
         this.isManual = isManual;
         this.currentGear = 1;
     }
+
+    public void changeGear(int currentGear) {
+        this.currentGear = currentGear;
+        System.out.println("Car1.changeGear(): Changed to " + this.currentGear + " gear.");
+    }
 }
