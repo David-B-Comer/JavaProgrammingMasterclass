@@ -16,4 +16,9 @@ public class Rectangle {
             this.length = length;
         }
     }
+
+    public double getWidth() {
+        return width;
+    }
+
 }
