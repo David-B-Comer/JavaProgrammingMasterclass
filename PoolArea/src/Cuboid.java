@@ -11,4 +11,7 @@ public class Cuboid extends Rectangle {
         }
     }
 
+    public double getHeight() {
+        return height;
+    }
 }
