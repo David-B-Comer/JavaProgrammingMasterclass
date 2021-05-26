@@ -21,4 +21,8 @@ public class Rectangle {
         return width;
     }
 
+    public double getLength() {
+        return length;
+    }
+
 }
