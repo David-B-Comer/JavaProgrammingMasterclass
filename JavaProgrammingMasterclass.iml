@@ -58,6 +58,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PerfectNumber/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Person/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Point/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/PoolArea/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInput/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInputChallenge/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SharedDigit/src" isTestSource="false" />
