@@ -26,4 +26,8 @@ public class Motherboard {
         return ramSlots;
     }
 
+    public int getCardSlots() {
+        return cardSlots;
+    }
+
 }
