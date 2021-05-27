@@ -25,4 +25,8 @@ public class Monitor {
         return manufacturer;
     }
 
+    public int getSize() {
+        return size;
+    }
+
 }
