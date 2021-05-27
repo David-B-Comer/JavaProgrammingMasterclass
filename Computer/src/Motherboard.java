@@ -13,4 +13,9 @@ public class Motherboard {
         this.cardSlots = cardSlots;
         this.bios = bios;
     }
+
+    public String getModel() {
+        return model;
+    }
+
 }
