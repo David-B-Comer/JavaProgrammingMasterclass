@@ -22,4 +22,8 @@ public class Motherboard {
         return manufacturer;
     }
 
+    public int getRamSlots() {
+        return ramSlots;
+    }
+
 }
