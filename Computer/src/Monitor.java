@@ -29,4 +29,8 @@ public class Monitor {
         return size;
     }
 
+    public Resolution getNativeResolution() {
+        return nativeResolution;
+    }
+
 }
