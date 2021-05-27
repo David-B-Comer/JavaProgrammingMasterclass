@@ -8,4 +8,7 @@ public class Resolution {
         this.height = height;
     }
 
+    public int getWidth() {
+        return width;
+    }
 }
