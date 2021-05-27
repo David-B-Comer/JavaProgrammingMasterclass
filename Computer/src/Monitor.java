@@ -21,4 +21,8 @@ public class Monitor {
         return model;
     }
 
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
 }
