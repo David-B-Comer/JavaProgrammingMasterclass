@@ -30,4 +30,8 @@ public class Motherboard {
         return cardSlots;
     }
 
+    public String getBios() {
+        return bios;
+    }
+
 }
