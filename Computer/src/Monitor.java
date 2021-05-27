@@ -17,4 +17,8 @@ public class Monitor {
         System.out.println("Drawing pixel at " + x + "," + y + " in color " + color);
     }
 
+    public String getModel() {
+        return model;
+    }
+
 }
