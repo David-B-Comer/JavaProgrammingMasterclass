@@ -18,4 +18,8 @@ public class Motherboard {
         return model;
     }
 
+    public String getManufacturer() {
+        return manufacturer;
+    }
+
 }
