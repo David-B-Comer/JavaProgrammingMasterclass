@@ -19,4 +19,8 @@ public class Case {
     public String getModel() {
         return model;
     }
+
+    public String getManufacturer() {
+        return manufacturer;
+    }
 }
