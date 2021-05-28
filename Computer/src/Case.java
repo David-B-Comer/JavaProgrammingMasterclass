@@ -16,6 +16,7 @@ public class Case {
         System.out.println("Power button pressed");
     }
 
-
-
+    public String getModel() {
+        return model;
+    }
 }
