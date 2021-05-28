@@ -13,4 +13,8 @@ public class Dimensions {
     public int getWidth() {
         return width;
     }
+
+    public int getHeight() {
+        return height;
+    }
 }
