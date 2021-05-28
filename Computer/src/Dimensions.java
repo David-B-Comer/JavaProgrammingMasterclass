@@ -9,4 +9,8 @@ public class Dimensions {
         this.height = height;
         this.depth = depth;
     }
+
+    public int getWidth() {
+        return width;
+    }
 }
