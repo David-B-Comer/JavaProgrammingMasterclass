@@ -23,4 +23,8 @@ public class Case {
     public String getManufacturer() {
         return manufacturer;
     }
+
+    public String getPowerSupply() {
+        return powerSupply;
+    }
 }
