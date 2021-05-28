@@ -27,4 +27,8 @@ public class Case {
     public String getPowerSupply() {
         return powerSupply;
     }
+
+    public Dimensions getDimensions() {
+        return dimensions;
+    }
 }
