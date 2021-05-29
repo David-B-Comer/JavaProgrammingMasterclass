@@ -13,4 +13,8 @@ public class PC {
     public Case getTheCase() {
         return theCase;
     }
+
+    public Monitor getMonitor() {
+        return monitor;
+    }
 }
