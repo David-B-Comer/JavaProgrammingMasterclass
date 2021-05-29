@@ -17,4 +17,9 @@ public class PC {
     public Monitor getMonitor() {
         return monitor;
     }
+
+    public Motherboard getMotherboard() {
+        return motherboard;
+    }
+
 }
