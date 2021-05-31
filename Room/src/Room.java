@@ -19,4 +19,8 @@ public class Room {
         this.desk = desk;
         this.light = light;
     }
+
+    public Light getLight() {
+        return this.light;
+    }
 }
