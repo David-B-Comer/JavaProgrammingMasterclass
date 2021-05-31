@@ -9,7 +9,7 @@ public class Room {
     private Desk desk;
     private Light light;
 
-    public Room(String name, Wall wall1, Wall wall2, Wall wall3, Wall wall4, Ceiling ceiling, Desk desk, Light light) {
+    public Room(String name, Walls wall1, Walls wall2, Walls wall3, Walls wall4, Ceiling ceiling, Desk desk, Light light) {
         this.name = name;
         this.wall1 = wall1;
         this.wall2 = wall2;
