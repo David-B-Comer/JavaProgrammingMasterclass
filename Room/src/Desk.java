@@ -13,4 +13,8 @@ public class Desk {
         this.height = height;
         this.material = material;
     }
+
+    public void tidy() {
+        System.out.println("Desk -> Tidying");
+    }
 }
