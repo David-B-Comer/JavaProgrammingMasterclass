@@ -1,10 +1,10 @@
 public class Room {
 
     private String name;
-    private Wall wall1;
-    private Wall wall2;
-    private Wall wall3;
-    private Wall wall4;
+    private Walls wall1;
+    private Walls wall2;
+    private Walls wall3;
+    private Walls wall4;
     private Ceiling ceiling;
     private Desk desk;
     private Light light;
