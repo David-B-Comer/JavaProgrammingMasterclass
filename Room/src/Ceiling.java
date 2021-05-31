@@ -11,4 +11,9 @@ public class Ceiling {
     public int getHeight() {
         return height;
     }
+
+    public int getPaintedColor() {
+        return paintedColor;
+    }
+
 }
