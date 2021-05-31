@@ -25,4 +25,8 @@ public class Desk {
     public int getLength() {
         return length;
     }
+
+    public int getWidth() {
+        return width;
+    }
 }
