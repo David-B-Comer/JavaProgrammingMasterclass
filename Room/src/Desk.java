@@ -17,4 +17,8 @@ public class Desk {
     public void tidy() {
         System.out.println("Desk -> Tidying");
     }
+
+    public String getStyle() {
+        return style;
+    }
 }
