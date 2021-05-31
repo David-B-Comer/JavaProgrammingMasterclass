@@ -21,4 +21,8 @@ public class Desk {
     public String getStyle() {
         return style;
     }
+
+    public int getLength() {
+        return length;
+    }
 }
