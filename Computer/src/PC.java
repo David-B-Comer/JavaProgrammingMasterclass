@@ -11,20 +11,13 @@ public class PC {
     }
 
     public void powerUp() {
-        getTheCase().pressPowerButton();
+        theCase.pressPowerButton();
         drawLogo();
     }
 
-    private Case getTheCase() {
-        return theCase;
-    }
-
-    private Monitor getMonitor() {
-        return monitor;
-    }
-
-    private Motherboard getMotherboard() {
-        return motherboard;
+    private void drawLogo() {
+        //Fancy Graphics
+        monitor.drawPixelAt(1200, 50, "yellow");
     }
 
 }
