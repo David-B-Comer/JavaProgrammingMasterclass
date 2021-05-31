@@ -33,4 +33,9 @@ public class Desk {
     public int getHeight() {
         return height;
     }
+
+    public String getMaterial() {
+        return material;
+    }
+
 }
