@@ -23,4 +23,9 @@ public class Room {
     public Light getLight() {
         return this.light;
     }
+
+    public void tidyDesk() {
+        System.out.println("Room ->  Tidying desk");
+        desk.tidy();
+    }
 }
