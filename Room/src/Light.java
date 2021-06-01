@@ -17,4 +17,8 @@ public class Light {
     public String getStyle() {
         return style;
     }
+
+    public boolean isOn() {
+        return isOn;
+    }
 }
