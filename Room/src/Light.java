@@ -9,4 +9,9 @@ public class Light {
         this.isOn = isOn;
         this.globes = globes;
     }
+
+    public void turnOn() {
+        System.out.println("Light -> Turning on");
+    }
+
 }
