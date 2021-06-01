@@ -21,4 +21,9 @@ public class Light {
     public boolean isOn() {
         return isOn;
     }
+
+    public int getGlobes() {
+        return globes;
+    }
+
 }
