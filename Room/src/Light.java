@@ -14,4 +14,7 @@ public class Light {
         System.out.println("Light -> Turning on");
     }
 
+    public String getStyle() {
+        return style;
+    }
 }
