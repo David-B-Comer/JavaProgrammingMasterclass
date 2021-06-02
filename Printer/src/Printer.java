@@ -40,6 +40,8 @@ public class Printer {
         return pagesToPrint;
     }
 
-
+    public int getNumberOfPagesPrinted() {
+        return numberOfPagesPrinted;
+    }
 
 }
