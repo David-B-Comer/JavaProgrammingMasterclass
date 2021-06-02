@@ -25,4 +25,8 @@ public class EnhancedPlayer {
     public String getName() {
         return name;
     }
+
+    public int getHealth() {
+        return health;
+    }
 }
