@@ -1,0 +1,2 @@
+public class PrinterMain {
+}
