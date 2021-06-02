@@ -29,4 +29,9 @@ public class EnhancedPlayer {
     public int getHealth() {
         return health;
     }
+
+    public String getWeapon() {
+        return weapon;
+    }
+
 }
