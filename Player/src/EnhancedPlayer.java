@@ -21,4 +21,8 @@ public class EnhancedPlayer {
             // Reduce number of lives remaining for the player
         }
     }
+
+    public String getName() {
+        return name;
+    }
 }
