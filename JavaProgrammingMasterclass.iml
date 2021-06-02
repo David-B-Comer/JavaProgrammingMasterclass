@@ -61,6 +61,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Player/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Point/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PoolArea/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Printer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInput/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInputChallenge/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Room/src" isTestSource="false" />
