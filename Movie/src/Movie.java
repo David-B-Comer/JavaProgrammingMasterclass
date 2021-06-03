@@ -57,3 +57,8 @@ class StarWars extends Movie {
         return "Imperial Forces try to take over the universe";
     }
 }
+
+
+class Forgetable extends Movie {
+
+}
