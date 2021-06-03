@@ -24,4 +24,7 @@ class Jaws extends Movie {
 
 
 class IndependenceDay extends Movie {
+    public IndependenceDay() {
+        super("Independence Day");
+    }
 }
