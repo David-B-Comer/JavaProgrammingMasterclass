@@ -48,5 +48,7 @@ class MazeRunner extends Movie {
 
 
 class StarWars extends Movie {
-
+    public StarWars() {
+        super("Star Wars");
+    }
 }
