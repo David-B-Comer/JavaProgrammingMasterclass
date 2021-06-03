@@ -21,3 +21,7 @@ class Jaws extends Movie {
         return "A shark eats lots of people";
     }
 }
+
+
+class IndependenceDay extends Movie {
+}
