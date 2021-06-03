@@ -13,4 +13,7 @@ public class Movie {
 
 
 class Jaws extends Movie {
+    public Jaws() {
+        super("Jaws");
+    }
 }
