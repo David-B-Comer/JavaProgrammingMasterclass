@@ -35,4 +35,7 @@ class IndependenceDay extends Movie {
 }
 
 class MazeRunner extends Movie {
+    public MazeRunner() {
+        super("MazeRunner");
+    }
 }
