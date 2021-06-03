@@ -33,3 +33,6 @@ class IndependenceDay extends Movie {
         return "Aliens attempt to take over planet earth";
     }
 }
+
+class MazeRunner extends Movie {
+}
