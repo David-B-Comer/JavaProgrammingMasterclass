@@ -10,3 +10,7 @@ public class Movie {
         return "No plot here";
     }
 }
+
+
+class Jaws extends Movie {
+}
