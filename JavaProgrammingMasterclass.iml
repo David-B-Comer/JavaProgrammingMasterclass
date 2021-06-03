@@ -52,6 +52,7 @@
       <sourceFolder url="file://$MODULE_DIR$/LargestPrime/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LastDigitChecker/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/MinimumAndMaximumChallenge/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Movie/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NumberPalindrome/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/NumberToWords/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PaintJob/src" isTestSource="false" />
@@ -60,7 +61,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Person/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Player/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Point/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Polymorphism/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PoolArea/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Printer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInput/src" isTestSource="false" />
