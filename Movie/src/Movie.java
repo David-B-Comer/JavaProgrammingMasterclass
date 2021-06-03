@@ -45,3 +45,8 @@ class MazeRunner extends Movie {
         return "Kids try and escape a maze";
     }
 }
+
+
+class StarWars extends Movie {
+
+}
