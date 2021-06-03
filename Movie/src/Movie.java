@@ -17,6 +17,7 @@ class Jaws extends Movie {
         super("Jaws");
     }
 
+    @Override
     public String plot() {
         return "A shark eats lots of people";
     }
@@ -37,5 +38,10 @@ class IndependenceDay extends Movie {
 class MazeRunner extends Movie {
     public MazeRunner() {
         super("MazeRunner");
+    }
+
+    @Override
+    public String plot() {
+        return "Kids try and escape a maze";
     }
 }
