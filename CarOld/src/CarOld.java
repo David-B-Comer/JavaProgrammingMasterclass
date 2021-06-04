@@ -1,6 +1,6 @@
 
 
-public class Car {
+public class CarOld {
 
     private int doors;
     private int wheels;
