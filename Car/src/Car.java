@@ -11,4 +11,8 @@ public class Car {
         this.wheels = 4;
         this.engine = true;
     }
+
+    public int getCylinders() {
+        return cylinders;
+    }
 }
