@@ -28,4 +28,8 @@ public class Car {
         return "Car -> accelerate()";
     }
 
+    public String brake() {
+        return "Car -> brake()";
+    }
+
 }
