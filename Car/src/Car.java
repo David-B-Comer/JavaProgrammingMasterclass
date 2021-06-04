@@ -15,4 +15,9 @@ public class Car {
     public int getCylinders() {
         return cylinders;
     }
+
+    public String getName() {
+        return name;
+    }
+
 }
