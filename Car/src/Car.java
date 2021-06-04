@@ -24,4 +24,8 @@ public class Car {
         return "Car -> startEngine()";
     }
 
+    public String accelerate() {
+        return "Car -> accelerate()";
+    }
+
 }
