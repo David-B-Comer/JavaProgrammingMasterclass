@@ -20,4 +20,8 @@ public class Car {
         return name;
     }
 
+    public String startEngine() {
+        return "Car -> startEngine()";
+    }
+
 }
