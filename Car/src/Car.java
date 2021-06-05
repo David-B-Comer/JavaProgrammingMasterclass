@@ -76,6 +76,12 @@ class Ford extends Car {
     public String accelerate() {
         return "Ford -> accelerate()";
     }
+
+    @Override
+    public String brake() {
+        return "Ford -> brake()";
+    }
+
 }
 
 
