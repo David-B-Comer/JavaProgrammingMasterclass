@@ -46,4 +46,9 @@ class Mitsubishi extends Car {
     public String startEngine() {
         return "Mitsubishi -> startEngine()";
     }
+
+    @Override
+    public String accelerate() {
+        return "Mitsubishi -> accelerate()";
+    }
 }
