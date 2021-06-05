@@ -86,6 +86,13 @@ class Ford extends Car {
 
 
 
+class Holden extends Car {
+
+}
+
+
+
+
 class CarMain {
 
     public static void main(String[] args) {
