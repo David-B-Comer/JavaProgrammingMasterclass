@@ -102,6 +102,11 @@ class Holden extends Car {
         return "Holden -> accelerate()";
     }
 
+    @Override
+    public String brake() {
+        return "Holden -> brake()";
+    }
+
 }
 
 
