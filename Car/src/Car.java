@@ -60,6 +60,12 @@ class Mitsubishi extends Car {
 }
 
 
+
+class Ford extends Car {
+}
+
+
+
 class CarMain {
 
     public static void main(String[] args) {
