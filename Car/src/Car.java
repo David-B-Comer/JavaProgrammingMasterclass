@@ -97,6 +97,11 @@ class Holden extends Car {
         return "Holden -> startEngine()";
     }
 
+    @Override
+    public String accelerate() {
+        return "Holden -> accelerate()";
+    }
+
 }
 
 
