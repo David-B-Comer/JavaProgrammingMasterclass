@@ -21,18 +21,17 @@ public class Hamburger {
         this.meat = meat;
         this.price = price;
         this.breadRollType = breadRollType;
-
-        this.addition2Name = addition2Name;
-        this.addition2Price = addition2Price;
-        this.addition3Name = addition3Name;
-        this.addition3Price = addition3Price;
-        this.addition4Name = addition4Name;
-        this.addition4Price = addition4Price;
     }
 
     public void addHamburgerAddition1(String name, double price) {
 
         this.addition1Name = addition1Name;
         this.addition1Price = addition1Price;
+    }
+
+    public void addHamburgerAddition2(String name, double price) {
+
+        this.addition2Name = addition2Name;
+        this.addition2Price = addition2Price;
     }
 }
