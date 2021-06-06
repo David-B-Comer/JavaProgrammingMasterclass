@@ -13,9 +13,18 @@ public class HealthyBurger extends Hamburger {
     public void addHealthyAddition1() {
 
         this.healthyExtra1Name = healthyExtra1Name;
-        this.healthyExtra2Name = healthyExtra2Name;
+        this.healthyExtra1Price = healthyExtra1Price;
 
         System.out.println("Added " + healthyExtra1Name + " for an extra " + healthyExtra1Price);
+
+    }
+
+    public void addHealthyAddition2() {
+
+        this.healthyExtra2Name = healthyExtra2Name;
+        this.healthyExtra2Price = healthyExtra2Price;
+
+        System.out.println("Added " + healthyExtra2Name + " for an extra " + healthyExtra2Price);
 
     }
 }
