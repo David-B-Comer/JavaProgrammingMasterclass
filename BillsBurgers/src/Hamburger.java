@@ -23,40 +23,40 @@ public class Hamburger {
 
     public void addHamburgerAddition1(String name, double price) {
 
-        this.addition1Name = addition1Name;
-        this.addition1Price = addition1Price;
+        this.addition1Name = name;
+        this.addition1Price = price;
 
-        System.out.println("Added " + addition1Name + " for an extra " + addition1Price);
+        System.out.println("Added " + this.addition1Name + " for an extra " + this.addition1Price);
     }
 
     public void addHamburgerAddition2(String name, double price) {
 
-        this.addition2Name = addition2Name;
-        this.addition2Price = addition2Price;
+        this.addition2Name = name;
+        this.addition2Price = price;
 
-        System.out.println("Added " + addition2Name + " for an extra " + addition2Price);
+        System.out.println("Added " + this.addition2Name + " for an extra " + this.addition2Price);
 
     }
 
     public void addHamburgerAddition3(String name, double price) {
 
-        this.addition3Name = addition3Name;
-        this.addition3Price = addition3Price;
+        this.addition3Name = name;
+        this.addition3Price = price;
 
-        System.out.println("Added " + addition3Name + " for an extra " + addition3Price);
+        System.out.println("Added " + this.addition3Name + " for an extra " + this.addition3Price);
 
     }
 
     public void addHamburgerAddition4(String name, double price) {
 
-        this.addition4Name = addition4Name;
-        this.addition4Price = addition4Price;
+        this.addition4Name = name;
+        this.addition4Price = price;
 
-        System.out.println("Added " + addition4Name + " for an extra " + addition4Price);
+        System.out.println("Added " + this.addition4Name + " for an extra " + this.addition4Price);
 
     }
 
-    public double itemizehamburger() {
+    public double itemizeHamburger() {
 
         System.out.println(name + "on a " + breadRollType + " with " + meat + ", price is " + price);
         System.out.println("Added " + addition1Name + " for an extra " + addition1Price);

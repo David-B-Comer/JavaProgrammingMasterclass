@@ -10,21 +10,27 @@ public class HealthyBurger extends Hamburger {
         super("Healthy Burger", meat, price, "Brown rye roll");
     }
 
-    public void addHealthyAddition1() {
+    public void addHealthyAddition1(String name, double price) {
 
-        this.healthyExtra1Name = healthyExtra1Name;
-        this.healthyExtra1Price = healthyExtra1Price;
+        this.healthyExtra1Name = name;
+        this.healthyExtra1Price = price;
 
         System.out.println("Added " + healthyExtra1Name + " for an extra " + healthyExtra1Price);
 
     }
 
-    public void addHealthyAddition2() {
+    public void addHealthyAddition2(String name, double price) {
 
-        this.healthyExtra2Name = healthyExtra2Name;
-        this.healthyExtra2Price = healthyExtra2Price;
+        this.healthyExtra2Name = name;
+        this.healthyExtra2Price = price;
 
         System.out.println("Added " + healthyExtra2Name + " for an extra " + healthyExtra2Price);
 
+    }
+
+    @Override
+    public double itemizeHamburger() {
+
+       return super.itemizeHamburger() + healthyExtra1Price + healthyExtra2Price;
     }
 }
