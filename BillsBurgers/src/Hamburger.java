@@ -34,4 +34,10 @@ public class Hamburger {
         this.addition2Name = addition2Name;
         this.addition2Price = addition2Price;
     }
+
+    public void addHamburgerAddition3(String name, double price) {
+
+        this.addition3Name = addition3Name;
+        this.addition3Price = addition3Price;
+    }
 }
