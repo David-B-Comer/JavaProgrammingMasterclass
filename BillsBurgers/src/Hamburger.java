@@ -46,4 +46,10 @@ public class Hamburger {
         this.addition4Name = addition4Name;
         this.addition4Price = addition4Price;
     }
+
+    public double itemizehamburger() {
+
+        System.out.println("Hamburger toppings: " + meat + ", " + breadRollType + ", " + addition1Name + ", " + addition2Name + ", " + addition3Name + ", " + addition4Name);
+        return price + addition1Price + addition2Price + addition3Price + addition4Price;
+    }
 }
