@@ -19,6 +19,9 @@ public class Hamburger {
         this.meat = meat;
         this.price = price;
         this.breadRollType = breadRollType;
+
+        System.out.println(name + " on a " + breadRollType + " roll with " + meat + ", price is " + price);
+
     }
 
     public void addHamburgerAddition1(String name, double price) {
@@ -58,16 +61,7 @@ public class Hamburger {
 
     public double itemizeHamburger() {
 
-        System.out.println(name + "on a " + breadRollType + " with " + meat + ", price is " + price);
-        System.out.println("Added " + addition1Name + " for an extra " + addition1Price);
-        System.out.println("Added " + addition2Name + " for an extra " + addition2Price);
-        System.out.println("Added " + addition3Name + " for an extra " + addition3Price);
-        System.out.println("Added " + addition4Name + " for an extra " + addition4Price);
+        return this.price + this.addition1Price + this.addition2Price + this.addition3Price + this.addition4Price;
 
-
-        double totalPrice = price + addition1Price + addition2Price + addition3Price + addition4Price;
-        System.out.println("Total " + name + " price is " + totalPrice);
-
-        return totalPrice;
     }
 }
