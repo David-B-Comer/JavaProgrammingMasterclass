@@ -68,6 +68,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Printer/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInput/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ReadingUserInputChallenge/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ReverseArray/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Room/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SharedDigit/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/SimpleCalculator/src" isTestSource="false" />
