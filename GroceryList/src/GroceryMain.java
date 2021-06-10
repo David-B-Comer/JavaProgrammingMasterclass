@@ -75,7 +75,7 @@ public class GroceryMain {
         System.out.print("Enter item number: ");
         int itemNo = scanner.nextInt();
         scanner.nextLine();
-        groceryList.removeGroceryItem(itemNo);
+        groceryList.removeGroceryItem(itemNo -1);
     }
 
     public static void searchForItem() {
@@ -86,7 +86,7 @@ public class GroceryMain {
         if (groceryList.findItem(searchItem) != null) {
             System.out.println("Found " + searchItem + " in our grocery list");
         } else {
-            System.out.println(searchItem + " is ot in the shopping list");
+            System.out.println(searchItem + " is not in the shopping list");
         }
     }
 
