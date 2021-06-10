@@ -1,0 +1,2 @@
+public class GroceryMain {
+}
