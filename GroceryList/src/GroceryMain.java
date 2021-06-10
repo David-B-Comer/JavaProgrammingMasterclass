@@ -52,7 +52,12 @@ public class GroceryMain {
         System.out.println("\t 4 - To remove an item from the list.");
         System.out.println("\t 5 - To search for an item in the list.");
         System.out.println("\t 6 - To quit the application.");
+    }
 
+    public static void addItem() {
+
+        System.out.print("Please enter the grocery item: ");
+        groceryList.addGroceryItem(scanner.nextLine());
     }
 
 }
