@@ -15,13 +15,13 @@ public class GroceryList {
         System.out.println("You have " + groceryList.size() + " items in your grocery list");
 
         for (int i = 0; i < groceryList.size(); i++) {
-            System.out.println((i + 1) + ", " + groceryList.get(i));
+            System.out.println((i + 1) + ". " + groceryList.get(i));
         }
     }
 
-    public void modifyGroceryItem(String newItem) {
+    public void modifyGroceryItem(String currentItem, String newItem) {
 
-        int position = findItem(newItem);
+        int position = findItem(currentItem);
 
         if ( position >= 0) {
             modifyGroceryItem(position, newItem);
@@ -48,8 +48,18 @@ public class GroceryList {
         groceryList.remove(position);
     }
 
-    public int findItem(String searchItem) {
+    private int findItem(String searchItem) {
 
        return groceryList.indexOf(searchItem);
+    }
+
+    public boolean onFile(String searchItem) {
+
+        int position = findItem(searchItem);
+
+        if (position >= 0) {
+            return true;
+        }
+        return false;
     }
 }
