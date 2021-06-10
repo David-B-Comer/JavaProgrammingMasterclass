@@ -28,15 +28,23 @@ public class GroceryList {
         }
     }
 
-    public void modifyGroceryItem(int position, String newItem) {
+    private void modifyGroceryItem(int position, String newItem) {
 
         groceryList.set(position, newItem);
         System.out.println("Grocery item " + (position + 1) + " has been modified.");
     }
 
-    public void removeGroceryItem(int position) {
+    public void removeGroceryItem(String item) {
 
-        String theItem = groceryList.get(position);
+        int position = findItem(item);
+
+        if ( position >= 0) {
+            removeGroceryItem(position);
+        }
+    }
+
+    private void removeGroceryItem(int position) {
+
         groceryList.remove(position);
     }
 
