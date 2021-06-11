@@ -10,4 +10,6 @@ public class MobilePhone {
         this.myNumber = myNumber;
         this.myContacts = new ArrayList<Contact>();
     }
+
+
 }
