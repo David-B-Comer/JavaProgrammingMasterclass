@@ -47,4 +47,13 @@ public class MobilePhone {
 
         return myContacts.get(findContact(name));
     }
+
+    public void printContacts() {
+
+        System.out.println("Contact List:");
+
+        for (int i = 0; i <  myContacts.size(); i++) {
+            System.out.println((i + 1) + ". " + myContacts.get(i).getName() + " -> " + myContacts.get(i).getPhoneNumber());
+        }
+    }
 }
