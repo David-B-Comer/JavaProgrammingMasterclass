@@ -32,4 +32,9 @@ public class MobilePhone {
         }
         return false;
     }
+
+    public int findContact(Contact contact) {
+
+        return myContacts.indexOf(contact);
+    }
 }
