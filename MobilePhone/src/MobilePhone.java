@@ -42,4 +42,9 @@ public class MobilePhone {
 
         return myContacts.indexOf(contact);
     }
+
+    public Contact queryContact(String name) {
+
+        return myContacts.get(findContact(name));
+    }
 }
