@@ -37,4 +37,9 @@ public class MobilePhone {
 
         return myContacts.indexOf(contact);
     }
+
+    public int findContact(String contact) {
+
+        return myContacts.indexOf(contact);
+    }
 }
