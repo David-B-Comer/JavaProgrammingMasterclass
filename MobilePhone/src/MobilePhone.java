@@ -13,40 +13,57 @@ public class MobilePhone {
 
     public boolean addNewContact(Contact contact) {
 
-        return  !myContacts.contains(contact);
+        if (findContact(contact) != -1) {
+            return false;
+        }
+        return  myContacts.add(contact);
     }
 
     public boolean updateContact(Contact oldContact, Contact newContact) {
 
-        if (myContacts.contains(oldContact)) {
-            myContacts.remove(oldContact);
-            myContacts.add(newContact);
+        if (findContact(oldContact) != -1) {
+            return myContacts.remove(oldContact) && myContacts.add(newContact);
         }
         return false;
     }
 
     public boolean removeContact(Contact contact) {
 
-        if (myContacts.contains(contact)) {
-            myContacts.remove(contact);
+        if (findContact(contact) == -1) {
+            return false;
         }
-        return false;
+        return myContacts.remove(contact);
     }
 
-    public int findContact(Contact contact) {
+    private int findContact(Contact contact) {
 
-        return myContacts.indexOf(contact);
+        return findContact(contact.getName());
     }
 
-    public int findContact(String contact) {
+    private int findContact(String contact) {
 
-        return myContacts.indexOf(contact);
+        for (int i = 0; i < myContacts.size(); i++) {
+            Contact contactName = myContacts.get(i);
+
+            if (contactName.getName().equals(contact)) {
+                return i;
+            }
+        }
+        return -1;
     }
 
     public Contact queryContact(String name) {
 
-        return myContacts.get(findContact(name));
+        for (int i = 0; i < myContacts.size(); i++) {
+            Contact contact = myContacts.get(i);
+
+            if (contact.getName().equals(name)) {
+                return contact;
+            }
+        }
+        return null;
     }
+
 
     public void printContacts() {
 
