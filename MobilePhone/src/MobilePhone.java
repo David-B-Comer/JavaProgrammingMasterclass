@@ -11,5 +11,9 @@ public class MobilePhone {
         this.myContacts = new ArrayList<Contact>();
     }
 
+    public boolean addNewContact(Contact contact) {
+
+        return  !myContacts.contains(contact);
+    }
 
 }
