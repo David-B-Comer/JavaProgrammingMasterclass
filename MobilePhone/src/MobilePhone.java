@@ -16,4 +16,12 @@ public class MobilePhone {
         return  !myContacts.contains(contact);
     }
 
+    public boolean updateContact(Contact oldContact, Contact newContact) {
+
+        if (myContacts.contains(oldContact)) {
+            myContacts.remove(oldContact);
+            myContacts.add(newContact);
+        }
+        return false;
+    }
 }
