@@ -34,6 +34,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ifThen/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/keywordsAndExpressions/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Animal/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Bank/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BankAccount/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/BillsBurgers/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Car/src" isTestSource="false" />
