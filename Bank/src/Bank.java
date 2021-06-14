@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.concurrent.BrokenBarrierException;
 
 public class Bank {
 
@@ -32,5 +33,16 @@ public class Bank {
         }
         return false;
     }
+
+    public boolean addCustomerTransaction(String branchName, String customerName, double transaction) {
+
+        Branch branch = new findBranch(branchName);
+
+        if (branch != null) {
+            return branch.addCustomerTransaction(customerName, transaction);
+        }
+        return false;
+    }
+
 
 }
