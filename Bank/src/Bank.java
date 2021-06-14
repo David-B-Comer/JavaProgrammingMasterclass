@@ -45,4 +45,18 @@ public class Bank {
     }
 
 
+    public Branch findBranch(String branchName) {
+
+        for (int i = 0; i < branches.size(); i++) {
+
+            if (branches.get(i).getName.equals(branchName)) {
+                return branches.get(i);
+            }
+        }
+        return null;
+    }
+
+
+
+
 }
