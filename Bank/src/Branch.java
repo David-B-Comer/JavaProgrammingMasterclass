@@ -18,4 +18,12 @@ public class Branch {
         return customers;
     }
 
+    public boolean newCustomer(String customerName, double initialAmount) {
+
+        if (findCustomer(customerName) == null) {
+            this.customers.add(new Customer(customerName, initialAmount));
+            return true;
+        }
+        return false;
+    }
 }
