@@ -1,6 +1,4 @@
-import java.beans.Customizer;
 import java.util.ArrayList;
-import java.util.concurrent.BrokenBarrierException;
 
 public class Bank {
 
@@ -45,7 +43,7 @@ public class Bank {
         return false;
     }
 
-    public Branch findBranch(String branchName) {
+    private Branch findBranch(String branchName) {
 
         for (int i = 0; i < branches.size(); i++) {
 
@@ -56,7 +54,7 @@ public class Bank {
         return null;
     }
 
-    public boolean listCustomer(String branchName, boolean printTransactions) {
+    public boolean listCustomers(String branchName, boolean printTransactions) {
 
         Branch branch = findBranch(branchName);
 
