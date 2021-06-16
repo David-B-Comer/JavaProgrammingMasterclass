@@ -20,4 +20,8 @@ public class LinkedListCustomer {
         return balance;
     }
 
+    public void setBalance(double balance) {
+        this.balance = balance;
+    }
+
 }
