@@ -11,4 +11,8 @@ public class LinkedListCustomer {
     public String getName() {
         return name;
     }
+
+    public void setName(String name) {
+        this.name = name;
+    }
 }
