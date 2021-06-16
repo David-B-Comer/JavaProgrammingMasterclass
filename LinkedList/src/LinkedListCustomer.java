@@ -1,0 +1,2 @@
+public class LinkedListCustomer {
+}
