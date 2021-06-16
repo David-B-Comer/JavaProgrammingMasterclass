@@ -7,4 +7,8 @@ public class LinkedListCustomer {
         this.name = name;
         this.balance = balance;
     }
+
+    public String getName() {
+        return name;
+    }
 }
