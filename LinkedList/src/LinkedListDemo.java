@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedListDemo {
@@ -13,5 +14,17 @@ public class LinkedListDemo {
         placesToVisit.add("Adelaide");
         placesToVisit.add("Darwin");
 
+        printList(placesToVisit);
+
+    }
+
+    private static void printList(LinkedList<String> linkedList) {
+
+        Iterator<String> i = linkedList.listIterator();
+
+        while (i.hasNext()) {
+            System.out.println("Now visiting " + i.next());
+        }
+        System.out.println("===========================");
     }
 }
