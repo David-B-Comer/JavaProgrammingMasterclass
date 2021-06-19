@@ -67,6 +67,7 @@
       <sourceFolder url="file://$MODULE_DIR$/PerfectNumber/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Person/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Player/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Playlist/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Point/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PoolArea/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Printer/src" isTestSource="false" />
