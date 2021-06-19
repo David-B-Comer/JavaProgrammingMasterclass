@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Album {
 
@@ -32,6 +33,17 @@ public class Album {
             }
         }
         return null;
+    }
+
+    public boolean addToPlaylist(int track, LinkedList<Song> playlist) {
+
+        if (track <= 0) {
+            return false;
+        }
+        Song song = songs.get(track - 1);
+        playlist.add(song);
+
+        return true;
     }
 
 }
