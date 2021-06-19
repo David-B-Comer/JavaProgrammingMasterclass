@@ -22,4 +22,16 @@ public class Album {
         return false;
     }
 
+    public Song findSong(String title) {
+
+        for (int i = 0; i < songs.size(); i++) {
+            Song song = songs.get(i);
+
+            if (song.getTitle() == title) {
+                return song;
+            }
+        }
+        return null;
+    }
+
 }
