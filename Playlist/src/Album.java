@@ -23,7 +23,7 @@ public class Album {
         return false;
     }
 
-    public Song findSong(String title) {
+    private Song findSong(String title) {
 
         for (int i = 0; i < songs.size(); i++) {
             Song song = songs.get(i);
