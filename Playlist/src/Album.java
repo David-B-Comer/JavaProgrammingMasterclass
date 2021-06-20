@@ -35,7 +35,7 @@ public class Album {
         return null;
     }
 
-    public boolean addToPlaylist(int track, LinkedList<Song> playlist) {
+    public boolean addToPlayList(int track, LinkedList<Song> playlist) {
 
         if (track <= 0) {
             return false;
