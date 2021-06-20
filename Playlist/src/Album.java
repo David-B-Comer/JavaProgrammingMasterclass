@@ -46,4 +46,16 @@ public class Album {
         return true;
     }
 
-}
+    public boolean addToPlayList(String title, LinkedList<Song> playlist) {
+
+        Song song = findSong(title);
+
+        if (song != null) {
+            playlist.add(song);
+
+            return true;
+        }
+        return false;
+    }
+
+    }
