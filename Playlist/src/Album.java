@@ -15,8 +15,11 @@ public class Album {
 
     public boolean addSong(String title, double duration) {
 
-        if (findSong(title) == null) {
-            songs.add(new Song(title, duration));
+        Song songToAdd = new Song(title, duration);
+        Song song = findSong(title);
+
+        if (song == null) {
+            songs.add(songToAdd);
 
             return true;
         }
@@ -37,13 +40,12 @@ public class Album {
 
     public boolean addToPlayList(int track, LinkedList<Song> playlist) {
 
-        if (track <= 0) {
-            return false;
-        }
-        Song song = songs.get(track - 1);
-        playlist.add(song);
+        if (track > 0 && songs.get(track - 1) != null) {
+            playlist.add(songs.get(track - 1));
 
-        return true;
+            return true;
+        }
+        return false;
     }
 
     public boolean addToPlayList(String title, LinkedList<Song> playlist) {
@@ -58,4 +60,4 @@ public class Album {
         return false;
     }
 
-    }
+}
