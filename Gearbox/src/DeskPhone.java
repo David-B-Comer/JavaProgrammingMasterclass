@@ -12,4 +12,9 @@ public class DeskPhone implements Telephone{
     public void dial(int phoneNumber) {
 
     }
+
+    @Override
+    public void answer() {
+
+    }
 }
