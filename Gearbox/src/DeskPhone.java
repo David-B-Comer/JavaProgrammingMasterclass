@@ -7,4 +7,9 @@ public class DeskPhone implements Telephone{
     public void powerOn() {
 
     }
+
+    @Override
+    public void dial(int phoneNumber) {
+
+    }
 }
