@@ -6,4 +6,6 @@ public interface Telephone {
 
     public void answer();
 
+    public boolean callPhone(int phoneNumber);
+
 }
