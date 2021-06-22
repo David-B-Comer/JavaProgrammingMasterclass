@@ -17,4 +17,9 @@ public class DeskPhone implements Telephone{
     public void answer() {
 
     }
+
+    @Override
+    public boolean callPhone(int phoneNumber) {
+        return false;
+    }
 }
