@@ -4,4 +4,6 @@ public interface Telephone {
 
     public void dial(int phoneNumber);
 
+    public void answer();
+
 }
