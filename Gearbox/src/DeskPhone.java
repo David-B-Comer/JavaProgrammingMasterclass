@@ -22,4 +22,10 @@ public class DeskPhone implements Telephone{
     public boolean callPhone(int phoneNumber) {
         return false;
     }
+
+    @Override
+    public boolean isRinging() {
+        return false;
+    }
+
 }
