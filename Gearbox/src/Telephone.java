@@ -8,4 +8,6 @@ public interface Telephone {
 
     public boolean callPhone(int phoneNumber);
 
+    public boolean isRinging();
+
 }
