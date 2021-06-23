@@ -4,5 +4,9 @@ public class TelephoneMain {
 
         Telephone telephone;
         telephone = new DeskPhone(123456);
+
+        telephone.powerOn();
+        telephone.callPhone(123456);
+        telephone.answer();
     }
 }
