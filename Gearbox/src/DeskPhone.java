@@ -15,7 +15,8 @@ public class DeskPhone implements Telephone{
 
     @Override
     public void answer() {
-
+        System.out.println("Answering the desk phone");
+        isRinging = false;
     }
 
     @Override
