@@ -21,7 +21,15 @@ public class DeskPhone implements Telephone{
 
     @Override
     public boolean callPhone(int phoneNumber) {
-        return false;
+
+        if (phoneNumber == myNumber) {
+            isRinging = true;
+            System.out.println("Ring ring");
+        } else {
+            isRinging = false;
+        }
+
+        return isRinging;
     }
 
     @Override
