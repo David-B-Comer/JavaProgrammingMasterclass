@@ -48,5 +48,11 @@ public class CellPhone implements Telephone {
         return isRinging;
     }
 
+    @Override
+    public boolean isRinging() {
+
+        return isRinging;
+    }
+
 
 }
