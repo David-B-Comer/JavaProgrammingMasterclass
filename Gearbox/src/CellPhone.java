@@ -8,4 +8,10 @@ public class CellPhone implements Telephone {
         this.myNumber = myNumber;
     }
 
+
+    @Override
+    public void powerOn() {
+        isOn = true;
+        System.out.println("Cell phone powered up");
+    }
 }
