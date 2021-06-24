@@ -35,5 +35,18 @@ public class CellPhone implements Telephone {
         }
     }
 
+    @Override
+    public boolean callPhone(int phoneNumber) {
+
+        if (phoneNumber == myNumber && isOn) {
+            isRinging = true;
+            System.out.println("Melody ring");
+        } else {
+            isRinging = false;
+        }
+
+        return isRinging;
+    }
+
 
 }
