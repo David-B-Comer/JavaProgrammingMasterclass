@@ -26,5 +26,14 @@ public class CellPhone implements Telephone {
         }
     }
 
+    @Override
+    public void answer() {
+
+        if (isRinging) {
+            System.out.println("Answering on the mobile phone");
+            isRinging = false;
+        }
+    }
+
 
 }
