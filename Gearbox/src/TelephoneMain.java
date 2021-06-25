@@ -11,7 +11,7 @@ public class TelephoneMain {
 
 
         telephone = new CellPhone(24565);
-        //telephone.powerOn();
+        telephone.powerOn();
         telephone.callPhone(24565);
         telephone.answer();
     }
