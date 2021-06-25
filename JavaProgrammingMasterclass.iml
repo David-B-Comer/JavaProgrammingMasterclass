@@ -52,6 +52,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Gearbox/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GreatestCommonDivisor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GroceryList/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ISaveable/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InputCalculator/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JPMC/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/LargestPrime/src" isTestSource="false" />
