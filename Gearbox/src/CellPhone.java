@@ -43,6 +43,7 @@ public class CellPhone implements Telephone {
             System.out.println("Melody ring");
         } else {
             isRinging = false;
+            System.out.println("Mobile phone not on or number different");
         }
 
         return isRinging;
