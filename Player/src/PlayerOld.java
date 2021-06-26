@@ -1,4 +1,4 @@
-public class Player {
+public class PlayerOld {
 
     public String name;
     public int health;
