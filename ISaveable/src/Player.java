@@ -27,4 +27,8 @@ public class Player {
     public void setWeapon(String weapon) {
         this.weapon = weapon;
     }
+
+    public int getHitPoints() {
+        return hitPoints;
+    }
 }
