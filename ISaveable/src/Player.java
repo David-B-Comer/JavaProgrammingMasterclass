@@ -11,4 +11,9 @@ public class Player {
         this.strength = strength;
         this.weapon = "Sword";
     }
+
+    public String getName() {
+        return name;
+    }
+
 }
