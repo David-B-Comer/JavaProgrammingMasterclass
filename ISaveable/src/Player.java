@@ -44,4 +44,8 @@ public class Player {
         this.strength = strength;
     }
 
+    @Override
+    public String toString() {
+        return "Player{name='" + name + '\'' + ", hitPoints=" + hitPoints + ", strength=" + strength + ", weapon='" + weapon + '\'' + "}";
+    }
 }
