@@ -35,4 +35,8 @@ public class Player {
     public void setHitPoints(int hitPoints) {
         this.hitPoints = hitPoints;
     }
+
+    public int getStrength() {
+        return strength;
+    }
 }
