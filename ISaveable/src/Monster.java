@@ -10,4 +10,7 @@ public class Monster {
         this.strength = strength;
     }
 
+    public String getName() {
+        return name;
+    }
 }
