@@ -17,4 +17,9 @@ public class Monster {
     public int getHitPoints() {
         return hitPoints;
     }
+
+    public int getStrength() {
+        return strength;
+    }
+
 }
