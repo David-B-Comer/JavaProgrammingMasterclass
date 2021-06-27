@@ -1,4 +1,7 @@
-public class Player {
+import java.util.LinkedList;
+import java.util.List;
+
+public class Player implements ISaveable{
 
     private String name;
     private String weapon;
@@ -42,6 +45,19 @@ public class Player {
 
     public void setStrength(int strength) {
         this.strength = strength;
+    }
+
+    @Override
+    public List<String> write() {
+
+        List<String>values = new LinkedList<>();
+
+        values.add(this.name);
+        values.add(String.valueOf(this.hitPoints));
+        values.add(String.valueOf(this.strength));
+        values.add(this.weapon);
+
+        return values;
     }
 
     @Override
