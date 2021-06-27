@@ -22,4 +22,8 @@ public class Monster {
         return strength;
     }
 
+    @Override
+    public String toString() {
+        return "Monster{name='" + name + '\'' + ", hitPoints=" + hitPoints + ", strength=" + strength + "}";
+    }
 }
