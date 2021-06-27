@@ -1,4 +1,7 @@
-public class Monster {
+import java.util.LinkedList;
+import java.util.List;
+
+public class Monster implements ISaveable {
 
     private String name;
     private int hitPoints;
@@ -20,6 +23,18 @@ public class Monster {
 
     public int getStrength() {
         return strength;
+    }
+
+    @Override
+    public List<String> write() {
+
+        List<String>values = new LinkedList<>();
+
+        values.add(this.name);
+        values.add(String.valueOf(this.hitPoints));
+        values.add(String.valueOf(this.strength));
+
+        return values;
     }
 
     @Override
