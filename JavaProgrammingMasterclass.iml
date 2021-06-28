@@ -49,7 +49,6 @@
       <sourceFolder url="file://$MODULE_DIR$/FirstLastDigitSum/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Floor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FlourPacker/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Gearbox/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GreatestCommonDivisor/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/GroceryList/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ISaveable/src" isTestSource="false" />
@@ -69,6 +68,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ParsingValueFromString/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/PerfectNumber/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Person/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Phone/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Player/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Playlist/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Point/src" isTestSource="false" />
