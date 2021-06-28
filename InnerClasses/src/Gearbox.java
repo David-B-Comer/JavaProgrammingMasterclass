@@ -13,4 +13,8 @@ public class Gearbox {
         this.gears.add(neutral);
     }
 
+    public class Gear {
+
+
+    }
 }
