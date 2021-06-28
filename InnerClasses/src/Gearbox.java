@@ -13,6 +13,7 @@ public class Gearbox {
         this.gears.add(neutral);
     }
 
+
     public class Gear {
 
         private int gearNumber;
@@ -23,5 +24,10 @@ public class Gearbox {
             this.ratio = ratio;
         }
 
+        public double driveSpeed(int revs) {
+            return revs * this.ratio;
+        }
+
     }
+
 }
