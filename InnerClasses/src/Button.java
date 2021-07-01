@@ -6,4 +6,8 @@ public class Button {
     public Button(String title) {
         this.title = title;
     }
+
+    public String getTitle() {
+        return title;
+    }
 }
