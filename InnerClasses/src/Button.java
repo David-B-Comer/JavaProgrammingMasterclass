@@ -10,4 +10,8 @@ public class Button {
     public String getTitle() {
         return title;
     }
+
+    public void setOnClickListener(OnClickListener onClickListener) {
+        this.onClickListener = onClickListener;
+    }
 }
