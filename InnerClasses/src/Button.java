@@ -14,4 +14,8 @@ public class Button {
     public void setOnClickListener(OnClickListener onClickListener) {
         this.onClickListener = onClickListener;
     }
+
+    public void onClick() {
+        this.onClickListener.onClick(this.title);
+    }
 }
