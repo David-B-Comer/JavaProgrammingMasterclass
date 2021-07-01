@@ -18,4 +18,8 @@ public class Button {
     public void onClick() {
         this.onClickListener.onClick(this.title);
     }
+
+    public interface OnClickListener {
+
+    }
 }
