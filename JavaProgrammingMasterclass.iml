@@ -84,6 +84,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Vehicle/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Wall/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WhileAndDoWhile/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Playlist2/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
