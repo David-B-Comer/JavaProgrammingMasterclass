@@ -19,8 +19,25 @@ public class ButtonMain {
             }
         }
 
-
-
-
+        btnPrint.setOnClickListener(new ClickListener());
+        listen();
     }
+
+    private static void listen() {
+
+        boolean quit = false;
+
+        while (!quit) {
+            int choice = scanner.nextInt();
+            scanner.nextLine();
+            switch (choice) {
+                case 0:
+                    quit = true;
+                    break;
+                case 1:
+                    btnPrint.onClick();
+            }
+        }
+    }
+
 }
