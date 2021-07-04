@@ -11,4 +11,17 @@ public class Album2 {
         this.artist = artist;
         this.songs = new ArrayList<Song>();
     }
+
+    public boolean addSong(String title, double duration) {
+
+        Song songToAdd = new Song(title, duration);
+        Song song = findSong(title);
+
+        if (song == null) {
+            songs.add(songToAdd);
+
+            return true;
+        }
+        return false;
+    }
 }
