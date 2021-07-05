@@ -7,4 +7,9 @@ public class Song2 {
         this.title = title;
         this.duration = duration;
     }
+
+    public String getTitle() {
+        return title;
+    }
+
 }
