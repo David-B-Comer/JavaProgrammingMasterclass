@@ -60,4 +60,9 @@ public class Album2 {
         return false;
     }
 
+
+    public static class SongList {
+
+    }
+
 }
