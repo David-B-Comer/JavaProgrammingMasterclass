@@ -68,6 +68,15 @@ public class Album2 {
         public SongList(ArrayList<Song> songs) {
             this.songs = new ArrayList<Song>();
         }
+
+        private boolean add(Song song) {
+
+            if (songs.contains(song)) {
+                return false;
+            }
+            songs.add(song);
+            return true;
+        }
     }
 
 }
