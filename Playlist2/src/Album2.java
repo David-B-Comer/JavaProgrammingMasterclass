@@ -77,6 +77,18 @@ public class Album2 {
             songs.add(song);
             return true;
         }
+
+        private Song findSong(String title) {
+
+            for (Song song: songs) {
+
+                if (song.getTitle().equals(title)) {
+                    return song;
+                }
+            }
+            return null;
+        }
+
     }
 
 }
