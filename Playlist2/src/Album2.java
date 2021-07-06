@@ -5,18 +5,18 @@ public class Album2 {
 
     private String name;
     private String artist;
-    private ArrayList<Song> songs;
+    private SongList songs;
 
     public Album2(String name, String artist) {
         this.name = name;
         this.artist = artist;
-        this.songs = new ArrayList<Song>();
+        this.songs = new SongList();
     }
 
     public boolean addSong(String title, double duration) {
 
         Song songToAdd = new Song(title, duration);
-        Song song = findSong(title);
+        Song song = songs.findSong(title);
 
         if (song == null) {
             songs.add(songToAdd);
@@ -26,22 +26,13 @@ public class Album2 {
         return false;
     }
 
-    private Song findSong(String title) {
-
-        for (int i = 0; i < songs.size(); i++) {
-            Song song = songs.get(i);
-
-            if (song.getTitle() == title) {
-                return song;
-            }
-        }
-        return null;
-    }
 
     public boolean addToPlayList(int track, LinkedList<Song> playlist) {
 
-        if (track > 0 && songs.get(track - 1) != null) {
-            playlist.add(songs.get(track - 1));
+        Song song = songs.findSong(track);
+
+        if (song != null) {
+            playlist.add(song);
 
             return true;
         }
@@ -50,7 +41,7 @@ public class Album2 {
 
     public boolean addToPlayList(String title, LinkedList<Song> playlist) {
 
-        Song song = findSong(title);
+        Song song = songs.findSong(title);
 
         if (song != null) {
             playlist.add(song);
@@ -65,7 +56,7 @@ public class Album2 {
 
         private ArrayList<Song> songs;
 
-        public SongList(ArrayList<Song> songs) {
+        private SongList() {
             this.songs = new ArrayList<Song>();
         }
 
@@ -80,15 +71,25 @@ public class Album2 {
 
         private Song findSong(String title) {
 
-            for (Song song: songs) {
+            for (int i = 0; i < songs.size(); i++) {
+                Song song = songs.get(i);
 
-                if (song.getTitle().equals(title)) {
+                if (song.getTitle() == title) {
                     return song;
                 }
             }
             return null;
         }
 
-    }
+        private Song findSong(int track) {
+
+            if (track - 1 > 0 && track - 1 < songs.size()) {
+                return songs.get(track - 1);
+            }
+            return null;
+        }
+
+
+        }
 
 }
