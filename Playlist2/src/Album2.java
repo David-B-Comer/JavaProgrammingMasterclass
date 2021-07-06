@@ -63,6 +63,11 @@ public class Album2 {
 
     public static class SongList {
 
+        private ArrayList<Song> songs;
+
+        public SongList(ArrayList<Song> songs) {
+            this.songs = new ArrayList<Song>();
+        }
     }
 
 }
