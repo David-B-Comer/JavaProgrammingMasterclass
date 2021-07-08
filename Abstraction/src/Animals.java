@@ -11,4 +11,8 @@ public abstract class Animals {
     public abstract void breathe();
 
 
+    public String getName() {
+        return name;
+    }
+
 }
