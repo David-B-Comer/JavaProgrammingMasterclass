@@ -5,4 +5,8 @@ public abstract class Animals {
     public Animals(String name) {
         this.name = name;
     }
+
+    public abstract void eat();
+
+
 }
