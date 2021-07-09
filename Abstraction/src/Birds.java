@@ -8,4 +8,9 @@ public class Birds extends Animals{
     public void eat() {
         System.out.println(getName() + " is pecking");
     }
+
+    @Override
+    public void breathe() {
+        System.out.println("Breathe in, breathe out, repeat");
+    }
 }
