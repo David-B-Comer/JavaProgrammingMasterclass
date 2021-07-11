@@ -1,4 +1,4 @@
-public abstract class Birds extends Animals{
+public abstract class Birds extends Animals implements CanFly{
 
     public Birds(String name) {
         super(name);
@@ -14,6 +14,9 @@ public abstract class Birds extends Animals{
         System.out.println("Breathe in, breathe out, repeat");
     }
 
-    public abstract void fly();
 
+    @Override
+    public void fly() {
+        System.out.println(getName() + " is flapping its wings");
+    }
 }
