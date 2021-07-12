@@ -7,4 +7,8 @@ public abstract class ListItem {
     public ListItem(Object value) {
         this.value = value;
     }
+
+    public Object getValue() {
+        return value;
+    }
 }
