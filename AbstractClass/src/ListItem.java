@@ -20,6 +20,7 @@ public abstract class ListItem {
 
     abstract ListItem setNext(ListItem item);
 
+    abstract ListItem previous();
 
 
 }
