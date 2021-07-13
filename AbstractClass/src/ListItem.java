@@ -16,4 +16,6 @@ public abstract class ListItem {
         this.value = value;
     }
 
+    abstract ListItem next();
+
 }
