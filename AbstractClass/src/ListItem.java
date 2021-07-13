@@ -18,4 +18,8 @@ public abstract class ListItem {
 
     abstract ListItem next();
 
+    abstract ListItem setNext(ListItem item);
+
+
+
 }
