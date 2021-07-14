@@ -25,4 +25,15 @@ public class Node extends ListItem{
         this.leftLink = item;
         return leftLink;
     }
+
+    @Override
+    int compareTo(ListItem item) {
+
+        if (item != null) {
+            return ((String)super.getValue()).compareTo((String)item.getValue());
+        } else {
+            return -1;
+        }
+    }
+
 }
