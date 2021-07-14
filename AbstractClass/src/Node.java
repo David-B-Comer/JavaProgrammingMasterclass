@@ -19,4 +19,10 @@ public class Node extends ListItem{
     ListItem previous() {
         return this.leftLink;
     }
+
+    @Override
+    ListItem setPrevious(ListItem item) {
+        this.leftLink = item;
+        return leftLink;
+    }
 }
