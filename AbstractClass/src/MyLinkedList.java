@@ -6,4 +6,8 @@ public class MyLinkedList {
         this.root = root;
     }
 
+    public ListItem getRoot() {
+        return root;
+    }
+
 }
