@@ -1,6 +1,6 @@
 public class MyLinkedList {
 
-    ListItem root;
+    private ListItem root;
 
     public MyLinkedList(ListItem root) {
         this.root = root;
@@ -8,6 +8,11 @@ public class MyLinkedList {
 
     public ListItem getRoot() {
         return root;
+    }
+
+    public boolean addItem() {
+
+        return false;
     }
 
 }
