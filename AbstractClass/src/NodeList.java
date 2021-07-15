@@ -2,5 +2,7 @@ public interface NodeList {
 
     ListItem getRoot();
 
-    boolean addItem();
+    boolean addItem(ListItem item);
+
+    boolean removeItem(ListItem item);
 }
