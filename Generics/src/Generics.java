@@ -4,7 +4,7 @@ public class Generics {
 
     public static void main(String[] args) {
 
-        ArrayList items = new ArrayList();
+        ArrayList<Integer> items = new ArrayList<>();
 
         items.add(1);
         items.add(2);
@@ -15,10 +15,10 @@ public class Generics {
         printDoubled(items);
     }
 
-    private static void printDoubled(ArrayList n) {
+    private static void printDoubled(ArrayList<Integer> n) {
 
-        for (Object i : n) {
-            System.out.println((Integer) i * 2);
+        for (int i : n) {
+            System.out.println(i * 2);
         }
     }
 
