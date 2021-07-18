@@ -87,6 +87,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Abstraction/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Playlist2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AbstractClass/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Generics/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
