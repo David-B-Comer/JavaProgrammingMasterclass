@@ -20,28 +20,24 @@ public class SearchTree implements NodeList {
         }
 
         ListItem currentItem = this.root;
-
         while (currentItem != null) {
             int comparison = (currentItem.compareTo(newItem));
-
             if (comparison < 0) {
                 if (currentItem.next() != null) {
                     currentItem = currentItem.next();
                 } else {
-                    currentItem.setNext(newItem).setPrevious(currentItem);
+                    currentItem.setNext(newItem);
                     return true;
                 }
             } else if (comparison > 0) {
                 if (currentItem.previous() != null) {
-                    currentItem.previous().setNext(newItem).setPrevious(currentItem.previous());
-                    newItem.setNext(currentItem).setPrevious(newItem);
+                    currentItem = currentItem.previous();
                 } else {
-                    newItem.setNext(this.root).setPrevious(newItem);
-                    this.root = newItem;
+                    currentItem.setPrevious(newItem);
+                    return true;
                 }
-                return true;
             } else {
-                System.out.println(newItem.getValue() + " is already present, not added.");
+                System.out.println(newItem.getValue() + " is already present");
                 return false;
             }
         }
@@ -55,24 +51,20 @@ public class SearchTree implements NodeList {
         if (item != null) {
             System.out.println("Deleting item " + item.getValue());
         }
-
         ListItem currentItem = this.root;
+        ListItem parentItem = currentItem;
+
         while (currentItem != null) {
-            int comparison = currentItem.compareTo(item);
-            if (comparison == 0) {
-                if (currentItem == this.root) {
-                    this.root = currentItem.next();
-                } else {
-                    currentItem.previous().setNext(currentItem.next());
-                    if (currentItem.next() != null) {
-                        currentItem.next().setPrevious(currentItem.previous());
-                    }
-                }
-                return true;
-            } else if (comparison < 0) {
+            int comparison = (currentItem.compareTo(item));
+            if (comparison < 0) {
+                parentItem = currentItem;
                 currentItem = currentItem.next();
+            } else if (comparison > 0) {
+                parentItem = currentItem;
+                currentItem = currentItem.previous();
             } else {
-                return false;
+                performRemoval(currentItem, parentItem);
+                return true;
             }
         }
         return false;
