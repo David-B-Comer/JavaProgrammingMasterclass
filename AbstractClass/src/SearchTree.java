@@ -1,4 +1,4 @@
-public class SearchTree {
+public class SearchTree implements NodeList {
 
     private ListItem root;
 
@@ -6,4 +6,8 @@ public class SearchTree {
         this.root = root;
     }
 
+    @Override
+    public ListItem getRoot() {
+        return root;
+    }
 }
