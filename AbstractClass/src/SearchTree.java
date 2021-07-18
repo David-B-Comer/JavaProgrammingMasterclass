@@ -78,4 +78,41 @@ public class SearchTree implements NodeList {
         return false;
     }
 
+
+    private void performRemoval(ListItem item, ListItem parent) {
+
+        if (item.next() == null) {
+            if (parent.next() == item) {
+                parent.setNext(item.previous());
+            } else if (parent.previous() == item) {
+                parent.setPrevious(item.previous());
+            } else {
+                this.root = item.previous();
+            }
+        } else if (item.previous() == null) {
+            if (parent.next() == item) {
+                parent.setNext(item.next());
+            } else if (parent.previous() == item) {
+                parent.setPrevious(item.next());
+            } else {
+                this.root = item.next();
+            }
+        } else {
+            ListItem current = item.next();
+            ListItem leftmostParent = item;
+
+            while (current.previous() != null) {
+                leftmostParent = current;
+                current = current.previous();
+            }
+            item.setValue(current.getValue());
+
+            if (leftmostParent == item) {
+                item.setNext(current.next());
+            } else {
+                leftmostParent.setPrevious(current.next());
+            }
+        }
+    }
+
 }
