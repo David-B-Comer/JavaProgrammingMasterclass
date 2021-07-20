@@ -6,4 +6,8 @@ public abstract class Players {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
 }
