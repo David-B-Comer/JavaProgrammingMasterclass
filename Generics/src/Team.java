@@ -8,7 +8,7 @@ public class Team {
     int lost = 0;
     int tied = 0;
 
-    private ArrayList<Players> member = new ArrayList<>();
+    private ArrayList<Players> members = new ArrayList<>();
 
     public Team(String name) {
         this.name = name;
@@ -16,6 +16,18 @@ public class Team {
 
     public String getName() {
         return name;
+    }
+
+    public boolean addPlayer(Players player) {
+
+        if (members.contains(player)) {
+            System.out.println(player.getName() + " is already on the team");
+            return false;
+        } else {
+            members.add(player);
+            System.out.println(player.getName() + " picked for team " + this.name);
+            return true;
+        }
     }
 
 }
