@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Team {
 
     private String name;
@@ -5,5 +7,11 @@ public class Team {
     int won = 0;
     int lost = 0;
     int tied = 0;
+
+    private ArrayList<Players> member = new ArrayList<>();
+
+    public Team(String name) {
+        this.name = name;
+    }
 
 }
