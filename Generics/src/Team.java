@@ -14,4 +14,8 @@ public class Team {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
 }
