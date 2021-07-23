@@ -51,4 +51,8 @@ public class Team {
         }
     }
 
+    public int ranking() {
+        return (won * 2) + tied;
+    }
+
 }
