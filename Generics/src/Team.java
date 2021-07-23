@@ -1,6 +1,6 @@
 import java.util.ArrayList;
 
-public class Team<T> {
+public class Team<T extends Players> {
 
     private String name;
     int played = 0;
