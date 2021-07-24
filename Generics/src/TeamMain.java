@@ -32,5 +32,8 @@ public class TeamMain {
         hawthorn.matchResult(fremantle, 1, 0);
         hawthorn.matchResult(adelaideCrows, 3, 0);
 
+        adelaideCrows.matchResult(fremantle, 1, 0);
+        adelaideCrows.matchResult(baseballTeam, 1, 1);
+
     }
 }
