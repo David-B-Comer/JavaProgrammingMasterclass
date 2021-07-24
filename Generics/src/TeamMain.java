@@ -25,5 +25,8 @@ public class TeamMain {
         Team<FootballPlayer> melbourne = new Team<>("Melbourne");
         FootballPlayer banks = new FootballPlayer("Gordon");
         melbourne.addPlayer(banks);
+
+        Team<FootballPlayer> hawthorn = new Team<>("Hawthorn");
+
     }
 }
