@@ -42,5 +42,10 @@ public class TeamMain {
         System.out.println(hawthorn.getName() + ": " + hawthorn.ranking());
 
 
+        System.out.println(adelaideCrows.compareTo(melbourne));
+        System.out.println(adelaideCrows.compareTo(hawthorn));
+        System.out.println(hawthorn.compareTo(adelaideCrows));
+        System.out.println(melbourne.compareTo(fremantle));
+
     }
 }
