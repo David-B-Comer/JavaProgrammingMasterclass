@@ -35,5 +35,12 @@ public class TeamMain {
         adelaideCrows.matchResult(fremantle, 1, 0);
         adelaideCrows.matchResult(baseballTeam, 1, 1);
 
+        System.out.println("Rankings");
+        System.out.println(adelaideCrows.getName() + ": " + adelaideCrows.ranking());
+        System.out.println(melbourne.getName() + ": " + melbourne.ranking());
+        System.out.println(fremantle.getName() + ": " + fremantle.ranking());
+        System.out.println(hawthorn.getName() + ": " + hawthorn.ranking());
+
+
     }
 }
