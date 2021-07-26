@@ -47,5 +47,15 @@ public class TeamMain {
         System.out.println(hawthorn.compareTo(adelaideCrows));
         System.out.println(melbourne.compareTo(fremantle));
 
+
+
+        League<Team<FootballPlayer>> footballLeague = new League<>("AFL");
+        footballLeague.add(adelaideCrows);
+        footballLeague.add(melbourne);
+        footballLeague.add(hawthorn);
+        footballLeague.add(fremantle);
+
+        footballLeague.showLeagueTable();
     }
+
 }
