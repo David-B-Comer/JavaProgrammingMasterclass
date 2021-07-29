@@ -1,2 +1,9 @@
 public class ScopeCheck {
+
+    public int publicVar = 0;
+    private int privateVar = 1;
+
+    public int getPrivateVar() {
+        return privateVar;
+    }
 }
