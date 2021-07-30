@@ -6,6 +6,8 @@ public class Scope {
 
         ScopeCheck scopeInstance = new ScopeCheck();
 
+        System.out.println("scopeInstance private var is " + scopeInstance.getPrivateVar());
+        System.out.println(privateVar);
 
     }
 }
