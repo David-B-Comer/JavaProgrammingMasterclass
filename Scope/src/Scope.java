@@ -9,5 +9,7 @@ public class Scope {
         System.out.println("scopeInstance private var is " + scopeInstance.getPrivateVar());
         System.out.println(privateVar);
 
+        scopeInstance.timesTwo();
+
     }
 }
