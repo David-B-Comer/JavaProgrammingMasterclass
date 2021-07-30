@@ -4,5 +4,8 @@ public class Scope {
 
         String privateVar = "This is private to main()";
 
+        ScopeCheck scopeInstance = new ScopeCheck();
+
+
     }
 }
