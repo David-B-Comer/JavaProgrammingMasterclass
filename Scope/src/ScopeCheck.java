@@ -23,10 +23,10 @@ public class ScopeCheck {
 
     public class InnerClass {
 
-        public int privateVar = 3;
+        public int var3 = 3;
 
         public InnerClass() {
-            System.out.println("InnerClass created, privateVar is " + privateVar);        }
+            System.out.println("InnerClass created, privateVar is " + var3);        }
 
 
         public void timesTwo() {
