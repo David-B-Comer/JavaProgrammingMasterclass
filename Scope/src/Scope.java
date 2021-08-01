@@ -10,8 +10,11 @@ public class Scope {
         System.out.println(privateVar);
 
         scopeInstance.timesTwo();
+        System.out.println("******************");
+
 
         ScopeCheck.InnerClass innerClass = scopeInstance.new InnerClass();
+        innerClass.timesTwo();
 
 
     }
