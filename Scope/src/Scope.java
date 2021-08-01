@@ -6,7 +6,7 @@ public class Scope {
 
         ScopeCheck scopeInstance = new ScopeCheck();
 
-        System.out.println("scopeInstance private var is " + scopeInstance.getPrivateVar());
+        System.out.println("scopeInstance private var is " + scopeInstance.getVar1());
         System.out.println(privateVar);
 
         scopeInstance.timesTwo();
