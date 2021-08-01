@@ -19,4 +19,10 @@ public class ScopeCheck {
             System.out.println(i + " times two is " + i * privateVar);
         }
     }
+
+
+    public class InnerClass {
+
+    }
+
 }
