@@ -23,6 +23,9 @@ public class ScopeCheck {
 
     public class InnerClass {
 
+        public int privateVar = 3;
+
+
     }
 
 }
