@@ -25,7 +25,8 @@ public class ScopeCheck {
 
         public int privateVar = 3;
 
-
+        public InnerClass() {
+            System.out.println("InnerClass created, privateVar is " + privateVar);        }
     }
 
 }
