@@ -20,6 +20,12 @@ public class ScopeCheck {
         }
     }
 
+    public void useInner() {
+
+        InnerClass innerClass = new InnerClass();
+        System.out.println("Var3 from outer class: " + innerClass.var3);
+    }
+
 
     public class InnerClass {
 
