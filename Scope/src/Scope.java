@@ -6,6 +6,7 @@ public class Scope {
 
         ScopeCheck scopeInstance = new ScopeCheck();
 
+        scopeInstance.useInner();
         System.out.println("scopeInstance var1 is " + scopeInstance.getVar1());
         System.out.println(var4);
 
