@@ -31,7 +31,7 @@ public class Account {
         int withdrawl = -amount;
 
         if (withdrawl < 0) {
-            transactions.add(amount);
+            transactions.add(withdrawl);
             this.balance += withdrawl;
             System.out.println(amount + " withdrawn. Balance is now " + this.balance);
         } else {
