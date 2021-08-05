@@ -25,4 +25,18 @@ public class Account {
             System.out.println("Cannot deposit negative sums");
         }
     }
+
+    public void withdraw(int amount) {
+
+        int withdrawl = -amount;
+
+        if (withdrawl < 0) {
+            transactions.add(amount);
+            this.balance += withdrawl;
+            System.out.println(amount + " withdrawn. Balance is now " + this.balance);
+        } else {
+            System.out.println("Cannot withdraw negative sums");
+        }
+    }
+
 }
