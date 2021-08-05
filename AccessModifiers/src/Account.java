@@ -8,5 +8,10 @@ public class Account {
 
     public Account(String accountName) {
         this.accountName = accountName;
+        this.transactions = new ArrayList<Integer>();
+    }
+
+    public int getBalance() {
+        return balance;
     }
 }
