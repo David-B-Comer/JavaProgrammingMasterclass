@@ -6,4 +6,6 @@ interface Accessible {
 
     void methodB();
 
+    boolean methodC();
+
 }
