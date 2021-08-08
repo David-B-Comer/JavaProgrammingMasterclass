@@ -11,4 +11,9 @@ public class StaticTest {
     public int getNumInstances() {
         return numInstances;
     }
+
+    public String getName() {
+        return name;
+    }
+
 }
