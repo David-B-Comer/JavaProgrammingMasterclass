@@ -4,7 +4,7 @@ interface Accessible { // package-private
 
     public void methodA(); // public
 
-    void methodB();
+    void methodB(); // public
 
     boolean methodC();
 
