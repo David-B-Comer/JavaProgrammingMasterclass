@@ -5,6 +5,10 @@ public class StaticTest {
 
     public StaticTest(String name) {
         this.name = name;
+        numInstances++;
     }
 
+    public int getNumInstances() {
+        return numInstances;
+    }
 }
