@@ -92,6 +92,7 @@
       <sourceFolder url="file://$MODULE_DIR$/League/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Scope/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Series/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/StaticTest/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
