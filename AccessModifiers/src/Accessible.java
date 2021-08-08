@@ -1,6 +1,6 @@
 interface Accessible { // package-private
 
-    int SOME_CONSTANT = 100;
+    int SOME_CONSTANT = 100; // public
 
     public void methodA();
 
