@@ -6,6 +6,6 @@ interface Accessible { // package-private
 
     void methodB(); // public
 
-    boolean methodC();
+    boolean methodC(); // public
 
 }
