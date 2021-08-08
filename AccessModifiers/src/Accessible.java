@@ -1,4 +1,4 @@
-interface Accessible {
+interface Accessible { // package-private
 
     int SOME_CONSTANT = 100;
 
