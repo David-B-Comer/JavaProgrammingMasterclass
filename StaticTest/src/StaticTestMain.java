@@ -15,4 +15,8 @@ public class StaticTestMain {
 
     }
 
+    public static int multiply(int number) {
+        return number * multiplier;
+    }
+
 }
