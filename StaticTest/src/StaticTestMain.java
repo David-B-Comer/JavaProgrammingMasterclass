@@ -13,6 +13,10 @@ public class StaticTestMain {
         StaticTest thirdInstance = new StaticTest("3rd instance");
         System.out.println(thirdInstance.getName() + " is instance number " + StaticTest.getNumInstances());
 
+        int answer = multiply(6);
+        System.out.println("The answer is " + answer);
+        System.out.println("Multiplier is " + multiplier);
+
     }
 
     public static int multiply(int number) {
