@@ -8,6 +8,11 @@ public class FinalStatement {
         this.name = name;
         classCounter++;
         instanceNumber = classCounter;
+        System.out.println(name + " created, instance is " + instanceNumber);
+    }
+
+    public int getInstanceNumber() {
+        return instanceNumber;
     }
 
 }
