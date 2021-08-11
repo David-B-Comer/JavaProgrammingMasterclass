@@ -9,5 +9,7 @@ public class FinalStatementMain {
         System.out.println(one.getInstanceNumber());
         System.out.println(two.getInstanceNumber());
         System.out.println(three.getInstanceNumber());
+
+        System.out.println(Math.PI);
     }
 }
