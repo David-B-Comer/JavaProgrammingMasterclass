@@ -47,4 +47,10 @@ public class Numbers {
         return ans;
     }
 
+    public static void main(String[] args) {
+
+        String s = "owoftnuoer";
+        System.out.println(findDigits(s));
+    }
+
 }
