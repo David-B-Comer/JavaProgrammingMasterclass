@@ -10,4 +10,8 @@ public class Password {
     public int encryptDecrypt(int password) {
         return password ^ key;
     }
+
+    public void storePassword() {
+        System.out.println("Saving password as " + this.encryptedPassword);
+    }
 }
