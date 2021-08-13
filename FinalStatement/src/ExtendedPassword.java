@@ -6,4 +6,9 @@ public class ExtendedPassword extends Password{
         super(password);
         this.decryptedPassword = password;
     }
+
+    @Override
+    public void storePassword() {
+        System.out.println("Saving password as " + this.decryptedPassword);
+    }
 }
