@@ -1,2 +1,4 @@
-public class ExtendedPassword {
+public class ExtendedPassword extends Password{
+
+    private int decryptedPassword;
 }
