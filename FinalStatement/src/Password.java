@@ -11,7 +11,7 @@ public class Password {
         return password ^ key;
     }
 
-    public void storePassword() {
+    public final void storePassword() {
         System.out.println("Saving password as " + this.encryptedPassword);
     }
 

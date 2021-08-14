@@ -14,7 +14,7 @@ public class FinalStatementMain {
 
 
         int pw = 674312;
-        Password password = new Password(pw);
+        Password password = new ExtendedPassword(pw);
         password.storePassword();
 
         password.letMeIn(1);
