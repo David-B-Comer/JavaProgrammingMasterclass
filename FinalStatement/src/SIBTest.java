@@ -11,4 +11,7 @@ public class SIBTest {
         System.out.println("SIB constructor called");
     }
 
+    static {
+        System.out.println("2nd static initialization block called");
+    }
 }
