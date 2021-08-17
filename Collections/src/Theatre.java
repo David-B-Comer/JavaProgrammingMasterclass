@@ -18,4 +18,9 @@ public class Theatre {
             }
         }
     }
+
+    public String getTheatreName() {
+        return theatreName;
+    }
+
 }
