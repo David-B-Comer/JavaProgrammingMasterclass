@@ -52,6 +52,7 @@ public class Theatre {
     private class Seat {
 
         private final String seatNumber;
+        private boolean reserved = false;
 
     }
 
