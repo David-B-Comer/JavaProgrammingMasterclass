@@ -49,4 +49,10 @@ public class Theatre {
         }
     }
 
+    private class Seat {
+
+
+
+    }
+
 }
