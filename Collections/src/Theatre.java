@@ -80,5 +80,8 @@ public class Theatre {
             }
         }
 
+        public String getSeatNumber() {
+            return seatNumber;
+        }
     }
 }
