@@ -88,6 +88,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Playlist2/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AbstractClass/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/AccessModifiers/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Collections/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FinalStatement/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Generics/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/League/src" isTestSource="false" />
