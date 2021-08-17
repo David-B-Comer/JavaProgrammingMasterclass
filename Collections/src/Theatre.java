@@ -54,6 +54,9 @@ public class Theatre {
         private final String seatNumber;
         private boolean reserved = false;
 
+        public Seat(String seatNumber) {
+            this.seatNumber = seatNumber;
+        }
     }
 
 }
