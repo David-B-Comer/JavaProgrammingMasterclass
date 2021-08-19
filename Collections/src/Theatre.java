@@ -1,10 +1,10 @@
+import java.util.ArrayList;
 import java.util.Collection;
-import java.util.LinkedHashSet;
 
 public class Theatre {
 
     private final String theatreName;
-    private Collection<Seat> seats = new LinkedHashSet<>();
+    private Collection<Seat> seats = new ArrayList<>();
 
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
         this.theatreName = theatreName;
@@ -28,6 +28,7 @@ public class Theatre {
         Seat requestedSeat = null;
 
         for (Seat seat : seats) {
+            System.out.println(".");
             if (seat.getSeatNumber().equals(seatNumber)){
                 requestedSeat = seat;
                 break;
@@ -49,13 +50,18 @@ public class Theatre {
         }
     }
 
-    private class Seat {
+    private class Seat implements Comparable<Seat>{
 
         private final String seatNumber;
         private boolean reserved = false;
 
         public Seat(String seatNumber) {
             this.seatNumber = seatNumber;
+        }
+
+        @Override
+        public int compareTo(Seat seat) {
+            return this.seatNumber.compareToIgnoreCase(seat.getSeatNumber());
         }
 
         public boolean reserve() {
