@@ -1,10 +1,10 @@
 import java.util.Collection;
-import java.util.LinkedList;
+import java.util.HashSet;
 
 public class Theatre {
 
     private final String theatreName;
-    private Collection<Seat> seats = new LinkedList<>();
+    private Collection<Seat> seats = new HashSet<>();
 
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
         this.theatreName = theatreName;
