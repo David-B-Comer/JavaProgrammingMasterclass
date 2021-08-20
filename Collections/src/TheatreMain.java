@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TheatreMain {
@@ -16,6 +17,13 @@ public class TheatreMain {
         } else {
             System.out.println("Seat already reserved");
         }
+
+        Collections.reverse(seatCopy);
+        System.out.println("Printing seatCopy");
+        printList(seatCopy);
+        System.out.println("Printing theatre.seats");
+        printList(theatre.seats);
+
     }
 
     public static void printList(List<Theatre.Seat> list) {
