@@ -8,6 +8,14 @@ public class TheatreMain {
         Theatre theatre = new Theatre("Olympian", 8, 12);
         List<Theatre.Seat> seatCopy = new ArrayList<>(theatre.seats);
         printList(seatCopy);
+
+        seatCopy.get(1).reserve();
+
+        if (theatre.reserveSeat("A02")) {
+            System.out.println("Please pay for seat A02");
+        } else {
+            System.out.println("Seat already reserved");
+        }
     }
 
     public static void printList(List<Theatre.Seat> list) {
