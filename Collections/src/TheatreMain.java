@@ -18,7 +18,7 @@ public class TheatreMain {
             System.out.println("Seat already reserved");
         }
 
-        Collections.reverse(seatCopy);
+        Collections.shuffle(seatCopy);
         System.out.println("Printing seatCopy");
         printList(seatCopy);
         System.out.println("Printing theatre.seats");
