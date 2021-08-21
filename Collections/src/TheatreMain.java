@@ -30,6 +30,10 @@ public class TheatreMain {
         System.out.println("Min seat number is " + minSeat.getSeatNumber());
         System.out.println("Max seat number is " + maxSeat.getSeatNumber());
 
+        sortList(seatCopy);
+        System.out.println("Printing sorted seatCopy");
+        printList(seatCopy);
+
     }
 
     public static void printList(List<Theatre.Seat> list) {
