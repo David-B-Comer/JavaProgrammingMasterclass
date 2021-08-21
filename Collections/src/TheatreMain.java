@@ -24,6 +24,9 @@ public class TheatreMain {
         System.out.println("Printing theatre.seats");
         printList(theatre.seats);
 
+        Theatre.Seat minSeat = Collections.min(seatCopy);
+
+
     }
 
     public static void printList(List<Theatre.Seat> list) {
