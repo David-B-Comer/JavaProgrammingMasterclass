@@ -25,6 +25,7 @@ public class TheatreMain {
         printList(theatre.seats);
 
         Theatre.Seat minSeat = Collections.min(seatCopy);
+        Theatre.Seat maxSeat = Collections.max(seatCopy);
 
 
     }
