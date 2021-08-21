@@ -27,6 +27,8 @@ public class TheatreMain {
         Theatre.Seat minSeat = Collections.min(seatCopy);
         Theatre.Seat maxSeat = Collections.max(seatCopy);
 
+        System.out.println("Min seat number is " + minSeat.getSeatNumber());
+        System.out.println("Max seat number is " + maxSeat.getSeatNumber());
 
     }
 
