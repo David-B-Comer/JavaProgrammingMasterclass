@@ -83,5 +83,9 @@ public class Theatre {
         public String getSeatNumber() {
             return seatNumber;
         }
+
+        public double getPrice() {
+            return price;
+        }
     }
 }
