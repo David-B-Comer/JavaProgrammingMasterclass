@@ -1,10 +1,11 @@
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class Theatre {
 
     private final String theatreName;
-    public List<Seat> seats = new ArrayList<>();
+    private List<Seat> seats = new ArrayList<>();
 
     public Theatre(String theatreName, int numRows, int seatsPerRow) {
         this.theatreName = theatreName;
@@ -25,25 +26,15 @@ public class Theatre {
 
     public boolean reserveSeat(String seatNumber) {
 
-      int low = 0;
-      int high = seats.size() -1;
+      Seat requestedSeat = new Seat(seatNumber, 0);
+      int foundSeat = Collections.binarySearch(seats, requestedSeat, null);
 
-      while (low <= high) {
-          System.out.print(".");
-          int mid = (low + high) / 2;
-          Seat midVal = seats.get(mid);
-          int cmp = midVal.getSeatNumber().compareTo(seatNumber);
-
-          if (cmp < 0) {
-              low = mid + 1;
-          } else if (cmp > 0) {
-              high = mid - 1;
-          } else {
-              return seats.get(mid).reserve();
-          }
+      if (foundSeat >= 0) {
+          return seats.get(foundSeat).reserve();
+      } else {
+          System.out.println("There is no seat " + seatNumber);
+          return false;
       }
-      System.out.println("There is no seat " + seatNumber);
-      return false;
     }
 
     public void getSeats() {
@@ -53,7 +44,7 @@ public class Theatre {
         }
     }
 
-    public class Seat implements Comparable<Seat>{
+    private class Seat implements Comparable<Seat>{
 
         private final String seatNumber;
         private boolean reserved = false;
