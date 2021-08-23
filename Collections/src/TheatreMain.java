@@ -7,18 +7,23 @@ public class TheatreMain {
         Theatre theatre = new Theatre("Olympian", 8, 12);
 
 
-        if (theatre.reserveSeat("A02")) {
-            System.out.println("Please pay for seat A02");
+        if (theatre.reserveSeat("D12")) {
+            System.out.println("Please pay for seat D12");
         } else {
             System.out.println("Seat already reserved");
         }
 
+        if (theatre.reserveSeat("B13")) {
+            System.out.println("Please pay for seat B13");
+        } else {
+            System.out.println("Seat already reserved");
+        }
     }
 
     public static void printList(List<Theatre.Seat> list) {
 
         for (Theatre.Seat seat : list) {
-            System.out.print(" " + seat.getSeatNumber());
+            System.out.print(" " + seat.getSeatNumber() + " " + seat.getPrice());
         }
         System.out.println();
         System.out.println("==============================================================================");
