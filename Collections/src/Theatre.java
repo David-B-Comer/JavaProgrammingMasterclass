@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.List;
 
@@ -37,11 +38,8 @@ public class Theatre {
       }
     }
 
-    public void getSeats() {
-
-        for (Seat seat : seats) {
-            System.out.println(seat.getSeatNumber());
-        }
+    public Collection<Seat> getSeats() {
+        return seats;
     }
 
     private class Seat implements Comparable<Seat>{
@@ -50,8 +48,9 @@ public class Theatre {
         private double price;
         private boolean reserved = false;
 
-        public Seat(String seatNumber) {
+        public Seat(String seatNumber, double price) {
             this.seatNumber = seatNumber;
+            this.price = price;
         }
 
         @Override
