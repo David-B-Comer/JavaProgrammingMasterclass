@@ -15,7 +15,14 @@ public class Theatre {
 
         for (char row  = 'A'; row <= lastRow; row++) {
             for (int seatNum = 1; seatNum <= seatsPerRow; seatNum++) {
-                Seat seat = new Seat(row + String.format("%02d", seatNum));
+                double price = 12.00;
+
+                if ((row < 'D') && (seatNum >= 4 && seatNum <= 9)) {
+                    price = 14.00;
+                } else if ((row > 'F') || (seatNum < 4 || seatNum > 9)) {
+                    price = 7.00;
+                }
+                Seat seat = new Seat(row + String.format("%02d", seatNum), price);
                 seats.add(seat);
             }
         }
@@ -42,7 +49,7 @@ public class Theatre {
         return seats;
     }
 
-    private class Seat implements Comparable<Seat>{
+    public class Seat implements Comparable<Seat>{
 
         private final String seatNumber;
         private double price;
