@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class TheatreMain {
@@ -18,6 +20,10 @@ public class TheatreMain {
         } else {
             System.out.println("Seat already reserved");
         }
+
+        List<Theatre.Seat> reverseSeats = new ArrayList<>(theatre.getSeats());
+        Collections.reverse(reverseSeats);
+        printList(reverseSeats);
     }
 
     public static void printList(List<Theatre.Seat> list) {
