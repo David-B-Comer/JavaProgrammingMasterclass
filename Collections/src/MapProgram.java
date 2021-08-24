@@ -7,6 +7,6 @@ public class MapProgram {
 
         Map<String, String> languages = new HashMap<>();
         languages.put("Java", "a compiled high level, object-orientated, platform independent language");
-
+        languages.put("Python", "an interpreted, object-orientated, high level programming language with dynamic semantics");
     }
 }
