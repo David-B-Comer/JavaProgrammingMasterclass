@@ -10,5 +10,6 @@ public class MapProgram {
         languages.put("Python", "an interpreted, object-orientated, high level programming language with dynamic semantics");
         languages.put("Algol", "an algorithmic language");
         languages.put("BASIC", "Beginners All Purposes Symbolic Instruction Code");
+        languages.put("Lisp", "Therein lies madness");
     }
 }
