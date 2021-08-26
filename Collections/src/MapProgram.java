@@ -11,5 +11,7 @@ public class MapProgram {
         languages.put("Algol", "an algorithmic language");
         languages.put("BASIC", "Beginners All Purposes Symbolic Instruction Code");
         languages.put("Lisp", "Therein lies madness");
+
+        System.out.println(languages.get("Java"));
     }
 }
