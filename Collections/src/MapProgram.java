@@ -23,6 +23,8 @@ public class MapProgram {
 
         System.out.println("==================================");
 
+        languages.remove("Lisp");
+
         for (String key : languages.keySet()) {
             System.out.println(key + " : " + languages.get(key));
         }
