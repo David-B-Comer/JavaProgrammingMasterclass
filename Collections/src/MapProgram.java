@@ -13,5 +13,11 @@ public class MapProgram {
         languages.put("Lisp", "Therein lies madness");
 
         System.out.println(languages.get("Java"));
+
+        if (languages.containsKey("Java")) {
+            System.out.println("Java is already in the map");
+        } else {
+            languages.put("Java", "this course is about Java");
+        }
     }
 }
