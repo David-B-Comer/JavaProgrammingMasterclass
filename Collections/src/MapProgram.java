@@ -32,6 +32,7 @@ public class MapProgram {
         }
 
         System.out.println(languages.replace("Lisp", "a functional programming language with imperative features"));
+        System.out.println(languages.replace("Scala", "this will not be added"));
 
         for (String key : languages.keySet()) {
             System.out.println(key + " : " + languages.get(key));
