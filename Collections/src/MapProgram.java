@@ -9,5 +9,6 @@ public class MapProgram {
         languages.put("Java", "a compiled high level, object-orientated, platform independent language");
         languages.put("Python", "an interpreted, object-orientated, high level programming language with dynamic semantics");
         languages.put("Algol", "an algorithmic language");
+        languages.put("BASIC", "Beginners All Purposes Symbolic Instruction Code");
     }
 }
