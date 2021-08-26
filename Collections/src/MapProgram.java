@@ -19,5 +19,12 @@ public class MapProgram {
         } else {
             languages.put("Java", "this course is about Java");
         }
+
+
+        System.out.println("==================================");
+
+        for (String key : languages.keySet()) {
+            System.out.println(key + " : " + languages.get(key));
+        }
     }
 }
