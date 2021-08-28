@@ -16,4 +16,8 @@ public class Location {
     public int getLocationID() {
         return locationID;
     }
+
+    public String getDescription() {
+        return description;
+    }
 }
