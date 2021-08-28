@@ -20,4 +20,8 @@ public class Location {
     public String getDescription() {
         return description;
     }
+
+    public Map<String, Integer> getExits() {
+        return exits;
+    }
 }
