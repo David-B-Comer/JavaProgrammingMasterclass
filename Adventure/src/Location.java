@@ -12,4 +12,8 @@ public class Location {
         this.description = description;
         this.exits = new HashMap<String, Integer>();
     }
+
+    public int getLocationID() {
+        return locationID;
+    }
 }
