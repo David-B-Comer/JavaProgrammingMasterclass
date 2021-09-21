@@ -15,5 +15,6 @@ public class AdventureMain {
         locations.put(2, new Location(2, "You are at the top of a hill"));
         locations.put(3, new Location(3, "You are inside a building, a well house for a small spring"));
         locations.put(4, new Location(4, "You are in a valley beside a stream"));
+        locations.put(5, new Location(5, "You are in the forest"));
     }
 }
