@@ -16,5 +16,20 @@ public class AdventureMain {
         locations.put(3, new Location(3, "You are inside a building, a well house for a small spring"));
         locations.put(4, new Location(4, "You are in a valley beside a stream"));
         locations.put(5, new Location(5, "You are in the forest"));
+
+        int loc = 1;
+
+        while (true) {
+            System.out.println(locations.get(loc).getDescription());
+            if (loc == 0) {
+                break;
+            }
+
+            loc = scanner.nextInt();
+            if (!locations.containsKey(loc)) {
+                System.out.println("You cannot go in that direction");
+            }
+        }
     }
+
 }
