@@ -18,6 +18,8 @@ public class AdventureMain {
         locations.put(5, new Location(5, "You are in the forest"));
 
         locations.get(1).addExit("W", 2);
+        locations.get(1).addExit("E", 3);
+
 
 
 
