@@ -17,6 +17,10 @@ public class AdventureMain {
         locations.put(4, new Location(4, "You are in a valley beside a stream"));
         locations.put(5, new Location(5, "You are in the forest"));
 
+        locations.get(1).addExit("W", 2);
+
+
+
         int loc = 1;
 
         while (true) {
