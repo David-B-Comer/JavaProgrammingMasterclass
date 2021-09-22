@@ -36,9 +36,6 @@ public class AdventureMain {
 
 
 
-
-
-
         int loc = 1;
 
         while (true) {
