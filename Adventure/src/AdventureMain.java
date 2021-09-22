@@ -30,6 +30,8 @@ public class AdventureMain {
         locations.get(3).addExit("Q", 0);
 
         locations.get(4).addExit("N", 1);
+        locations.get(4).addExit("W", 2);
+
 
 
 
