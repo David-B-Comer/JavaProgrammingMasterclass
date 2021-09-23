@@ -55,10 +55,11 @@ public class AdventureMain {
             }
             System.out.println();
 
+            String direction = scanner.nextLine().toUpperCase();
 
-
-            loc = scanner.nextInt();
-            if (!locations.containsKey(loc)) {
+            if (exits.containsKey(direction)) {
+                loc = exits.get(direction);
+            } else {
                 System.out.println("You cannot go in that direction");
             }
         }
