@@ -36,6 +36,7 @@ public class AdventureMain {
         vocabulary.put("QUIT", "Q");
         vocabulary.put("NORTH", "N");
         vocabulary.put("SOUTH", "S");
+        vocabulary.put("WEST", "W");
 
         int loc = 1;
 
