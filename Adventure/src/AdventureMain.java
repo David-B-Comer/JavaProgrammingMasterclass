@@ -33,8 +33,8 @@ public class AdventureMain {
         locations.get(5).addExit("W", 2);
 
         Map<String, String> vocabulary = new HashMap<>();
-        vocabulary.put("Quit", "Q");
-
+        vocabulary.put("QUIT", "Q");
+        vocabulary.put("NORTH", "N");
 
 
         int loc = 1;
