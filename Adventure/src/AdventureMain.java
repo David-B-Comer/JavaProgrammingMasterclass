@@ -18,21 +18,24 @@ public class AdventureMain {
         locations.put(5, new Location(5, "You are in the forest"));
 
         Map<String, Integer> tempExit = new HashMap<String, Integer>();
+        tempExit.put("W", 2);
+        tempExit.put("E", 3);
+        tempExit.put("S", 4);
+        tempExit.put("N", 5);
 
-        locations.get(1).addExit("W", 2);
-        locations.get(1).addExit("E", 3);
-        locations.get(1).addExit("S", 4);
-        locations.get(1).addExit("N", 5);
+        tempExit = new HashMap<String, Integer>();
+        tempExit.put("N", 5);
 
-        locations.get(2).addExit("N", 5);
+        tempExit = new HashMap<String, Integer>();
+        tempExit.put("W", 1);
 
-        locations.get(3).addExit("W", 1);
+        tempExit = new HashMap<String, Integer>();
+        tempExit.put("N", 1);
+        tempExit.put("W", 2);
 
-        locations.get(4).addExit("N", 1);
-        locations.get(4).addExit("W", 2);
-
-        locations.get(5).addExit("S", 1);
-        locations.get(5).addExit("W", 2);
+        tempExit = new HashMap<String, Integer>();
+        tempExit.put("S", 1);
+        tempExit.put("W", 2);
 
         Map<String, String> vocabulary = new HashMap<>();
         vocabulary.put("QUIT", "Q");
