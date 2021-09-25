@@ -35,7 +35,7 @@ public class AdventureMain {
         Map<String, String> vocabulary = new HashMap<>();
         vocabulary.put("QUIT", "Q");
         vocabulary.put("NORTH", "N");
-
+        vocabulary.put("SOUTH", "S");
 
         int loc = 1;
 
