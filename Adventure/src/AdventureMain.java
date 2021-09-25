@@ -57,6 +57,17 @@ public class AdventureMain {
 
             String direction = scanner.nextLine().toUpperCase();
 
+            if (direction.length() > 1) {
+                String[] words = direction.split(" ");
+
+                for (String word : words) {
+                    if (vocabulary.containsKey(word)) {
+                        direction = vocabulary.get(word);
+                        break;
+                    }
+                }
+            }
+
             if (exits.containsKey(direction)) {
                 loc = exits.get(direction);
             } else {
