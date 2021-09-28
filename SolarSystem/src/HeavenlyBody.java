@@ -12,4 +12,8 @@ public final class HeavenlyBody {
         this.orbitalPeriod = orbitalPeriod;
         this.satellites = new HashSet<>();
     }
+
+    public String getName() {
+        return name;
+    }
 }
