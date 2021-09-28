@@ -20,4 +20,8 @@ public final class HeavenlyBody {
     public double getOrbitalPeriod() {
         return orbitalPeriod;
     }
+
+    public boolean addMoon(HeavenlyBody moon) {
+        return this.satellites.add(moon);
+    }
 }
