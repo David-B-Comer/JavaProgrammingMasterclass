@@ -16,4 +16,8 @@ public final class HeavenlyBody {
     public String getName() {
         return name;
     }
+
+    public double getOrbitalPeriod() {
+        return orbitalPeriod;
+    }
 }
