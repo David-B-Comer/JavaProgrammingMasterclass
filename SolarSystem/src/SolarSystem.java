@@ -13,5 +13,8 @@ public class SolarSystem {
         HeavenlyBody temp = new HeavenlyBody("Mercury", 88);
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
+
+        temp = new HeavenlyBody("Venus", 225);
+
     }
 }
