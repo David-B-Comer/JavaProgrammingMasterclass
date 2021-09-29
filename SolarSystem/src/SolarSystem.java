@@ -23,6 +23,7 @@ public class SolarSystem {
         planets.add(temp);
 
         HeavenlyBody tempMoon = new HeavenlyBody("Moon", 27);
+        solarSystem.put(tempMoon.getName(), tempMoon);
 
     }
 }
