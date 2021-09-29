@@ -18,5 +18,7 @@ public class SolarSystem {
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
+        temp = new HeavenlyBody("Earth", 365);
+
     }
 }
