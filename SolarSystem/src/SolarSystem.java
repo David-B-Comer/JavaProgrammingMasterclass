@@ -10,6 +10,7 @@ public class SolarSystem {
 
     public static void main(String[] args) {
 
+        HeavenlyBody temp = new HeavenlyBody("Mercury", 88);
 
     }
 }
