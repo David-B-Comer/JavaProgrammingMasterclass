@@ -30,6 +30,8 @@ public class SolarSystem {
         solarSystem.put(temp.getName(), temp);
         planets.add(temp);
 
+        tempMoon = new HeavenlyBody("Deimos", 1.3);
+
 
     }
 }
