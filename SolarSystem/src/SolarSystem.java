@@ -27,6 +27,8 @@ public class SolarSystem {
         temp.addMoon(tempMoon);
 
         temp = new HeavenlyBody("Mars", 687);
+        solarSystem.put(temp.getName(), temp);
+
 
     }
 }
