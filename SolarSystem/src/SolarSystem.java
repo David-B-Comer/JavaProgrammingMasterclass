@@ -36,6 +36,7 @@ public class SolarSystem {
 
         tempMoon = new HeavenlyBody("Phobos", 0.3);
         solarSystem.put(tempMoon.getName(), tempMoon);
+        temp.addMoon(tempMoon);
 
 
     }
