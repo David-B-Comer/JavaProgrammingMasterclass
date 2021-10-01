@@ -40,6 +40,7 @@ public class SolarSystem {
 
         temp = new HeavenlyBody("Jupiter", 4332);
         solarSystem.put(temp.getName(), temp);
+        planets.add(temp);
 
     }
 }
