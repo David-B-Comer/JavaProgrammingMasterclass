@@ -39,6 +39,7 @@ public class SolarSystem {
         temp.addMoon(tempMoon);
 
         temp = new HeavenlyBody("Jupiter", 4332);
+        solarSystem.put(temp.getName(), temp);
 
     }
 }
