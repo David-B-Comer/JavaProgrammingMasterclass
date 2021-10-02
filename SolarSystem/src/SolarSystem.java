@@ -43,6 +43,8 @@ public class SolarSystem {
         planets.add(temp);
 
         tempMoon = new HeavenlyBody("Io", 1.8);
+        solarSystem.put(tempMoon.getName(), tempMoon);
+
 
     }
 }
