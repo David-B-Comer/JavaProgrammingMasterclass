@@ -47,6 +47,7 @@ public class SolarSystem {
         temp.addMoon(tempMoon);
 
         tempMoon = new HeavenlyBody("Europa", 3.5);
+        solarSystem.put(tempMoon.getName(), tempMoon);
 
     }
 }
