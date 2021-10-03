@@ -55,6 +55,7 @@ public class SolarSystem {
         temp.addMoon(tempMoon);
 
         tempMoon = new HeavenlyBody("Callisto", 16.7);
+        solarSystem.put(tempMoon.getName(), tempMoon);
 
 
     }
