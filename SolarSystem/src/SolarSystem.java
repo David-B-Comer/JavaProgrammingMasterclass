@@ -51,6 +51,7 @@ public class SolarSystem {
         temp.addMoon(tempMoon);
 
         tempMoon = new HeavenlyBody("Ganymede", 7.1);
+        solarSystem.put(tempMoon.getName(), tempMoon);
 
     }
 }
