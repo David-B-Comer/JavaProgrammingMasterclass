@@ -60,6 +60,7 @@ public class SolarSystem {
 
         temp = new HeavenlyBody("Saturn", 10759);
         solarSystem.put(temp.getName(), temp);
+        planets.add(temp);
 
 
     }
