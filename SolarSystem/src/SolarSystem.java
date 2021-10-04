@@ -63,6 +63,7 @@ public class SolarSystem {
         planets.add(temp);
 
         temp = new HeavenlyBody("Uranus", 30660);
+        solarSystem.put(temp.getName(), temp);
 
 
     }
