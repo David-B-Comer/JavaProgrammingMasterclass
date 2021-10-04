@@ -59,6 +59,7 @@ public class SolarSystem {
         temp.addMoon(tempMoon);
 
         temp = new HeavenlyBody("Saturn", 10759);
+        solarSystem.put(temp.getName(), temp);
 
 
     }
