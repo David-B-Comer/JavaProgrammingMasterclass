@@ -67,6 +67,7 @@ public class SolarSystem {
         planets.add(temp);
 
         temp = new HeavenlyBody("Neptune", 165);
+        solarSystem.put(temp.getName(), temp);
 
     }
 }
