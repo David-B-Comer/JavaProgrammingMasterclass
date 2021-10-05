@@ -71,6 +71,7 @@ public class SolarSystem {
         planets.add(temp);
 
         temp = new HeavenlyBody("Pluto", 248);
+        solarSystem.put(temp.getName(), temp);
 
     }
 }
