@@ -92,5 +92,11 @@ public class SolarSystem {
         for (HeavenlyBody planet : planets) {
             moons.addAll(planet.getSatellites());
         }
+
+        System.out.println("All Moons");
+
+        for (HeavenlyBody moon : moons) {
+            System.out.println("\t" + moon.getName());
+        }
     }
 }
