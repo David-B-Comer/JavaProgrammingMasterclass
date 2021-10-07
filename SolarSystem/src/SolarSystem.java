@@ -88,5 +88,9 @@ public class SolarSystem {
         }
 
         Set<HeavenlyBody> moons = new HashSet<>();
+
+        for (HeavenlyBody planet : planets) {
+            moons.addAll(planet.getSatellites());
+        }
     }
 }
