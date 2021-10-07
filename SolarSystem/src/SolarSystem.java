@@ -86,5 +86,7 @@ public class SolarSystem {
         for (HeavenlyBody jupiterMoon : body.getSatellites()) {
             System.out.println("\t" + jupiterMoon.getName());
         }
+
+        Set<HeavenlyBody> moons = new HashSet<>();
     }
 }
