@@ -98,5 +98,8 @@ public class SolarSystem {
         for (HeavenlyBody moon : moons) {
             System.out.println("\t" + moon.getName());
         }
+
+        HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+
     }
 }
