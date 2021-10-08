@@ -100,6 +100,7 @@ public class SolarSystem {
         }
 
         HeavenlyBody pluto = new HeavenlyBody("Pluto", 842);
+        planets.add(pluto);
 
     }
 }
