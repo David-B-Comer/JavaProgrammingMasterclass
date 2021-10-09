@@ -10,4 +10,20 @@ public class DogEquals {
         return name;
     }
 
+    @Override
+    public boolean equals(Object obj) {
+
+        if (this == obj) {
+            return true;
+        }
+
+        if (obj instanceof Dog) {
+
+            String objName = ((Dog) obj).getName();
+
+            return this.name.equals(objName);
+        }
+        return false;
+    }
+
 }
