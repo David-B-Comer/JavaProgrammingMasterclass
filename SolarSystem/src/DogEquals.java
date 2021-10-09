@@ -6,4 +6,8 @@ public class DogEquals {
         this.name = name;
     }
 
+    public String getName() {
+        return name;
+    }
+
 }
