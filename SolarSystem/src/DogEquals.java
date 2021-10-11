@@ -11,15 +11,15 @@ public class DogEquals {
     }
 
     @Override
-    public boolean equals(Object obj) {
+    public final boolean equals(Object obj) {
 
         if (this == obj) {
             return true;
         }
 
-        if (obj instanceof Dog) {
+        if (obj instanceof DogEquals) {
 
-            String objName = ((Dog) obj).getName();
+            String objName = ((DogEquals) obj).getName();
 
             return this.name.equals(objName);
         }
