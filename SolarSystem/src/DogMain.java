@@ -6,6 +6,8 @@ public class DogMain {
         DogEquals rover2 = new DogEquals("Rover");
 
         System.out.println(rover2.equals(rover));
+        System.out.println(rover.equals(rover2));
+
     }
 
 }
