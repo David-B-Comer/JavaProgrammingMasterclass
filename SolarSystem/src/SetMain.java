@@ -14,6 +14,8 @@ public class SetMain {
             cubes.add(i * i * i);
         }
 
+        System.out.println("There are " + squares.size() + " squares and " + cubes.size() + " cubes.");
+
     }
 
 }
