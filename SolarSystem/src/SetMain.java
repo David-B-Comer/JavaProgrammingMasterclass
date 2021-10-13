@@ -9,6 +9,10 @@ public class SetMain {
         Set<Integer> squares = new HashSet<>();
         Set<Integer> cubes = new HashSet<>();
 
+        for (int i = 0; i <= 100; i++) {
+            squares.add(i * i);
+        }
+
     }
 
 }
