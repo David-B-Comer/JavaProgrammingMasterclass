@@ -11,6 +11,7 @@ public class SetMain {
 
         for (int i = 0; i <= 100; i++) {
             squares.add(i * i);
+            cubes.add(i * i * i);
         }
 
     }
