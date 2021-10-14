@@ -18,7 +18,7 @@ public class SetMain {
 
         Set<Integer> union = new HashSet<>(squares);
         union.addAll(cubes);
-
+        System.out.println("Union contains " + union.size() + " elements.");
 
     }
 
