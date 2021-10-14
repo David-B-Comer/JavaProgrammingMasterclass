@@ -17,6 +17,8 @@ public class SetMain {
         System.out.println("There are " + squares.size() + " squares and " + cubes.size() + " cubes.");
 
         Set<Integer> union = new HashSet<>(squares);
+        union.addAll(cubes);
+
 
     }
 
