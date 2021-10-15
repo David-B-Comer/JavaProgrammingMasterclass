@@ -22,6 +22,7 @@ public class SetMain {
 
         Set<Integer> intersection = new HashSet<>(squares);
         intersection.retainAll(cubes);
+        System.out.println("Intersection contains " + intersection.size() + " elements.");
 
     }
 
