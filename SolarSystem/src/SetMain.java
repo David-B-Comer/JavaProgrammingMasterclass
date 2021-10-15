@@ -21,6 +21,7 @@ public class SetMain {
         System.out.println("Union contains " + union.size() + " elements.");
 
         Set<Integer> intersection = new HashSet<>(squares);
+        intersection.retainAll(cubes);
 
     }
 
