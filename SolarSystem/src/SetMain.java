@@ -20,6 +20,8 @@ public class SetMain {
         union.addAll(cubes);
         System.out.println("Union contains " + union.size() + " elements.");
 
+        Set<Integer> intersection = new HashSet<>(squares);
+
     }
 
 }
