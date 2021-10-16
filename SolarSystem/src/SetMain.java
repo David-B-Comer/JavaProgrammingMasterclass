@@ -29,5 +29,7 @@ public class SetMain {
         }
 
 
+        Set<String> words = new HashSet<>();
+
     }
 }
