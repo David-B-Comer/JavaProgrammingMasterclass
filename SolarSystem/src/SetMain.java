@@ -28,5 +28,6 @@ public class SetMain {
             System.out.println(i + " is the square of " + Math.sqrt(i) + " and the cube of " + Math.cbrt(i));
         }
 
+
     }
 }
