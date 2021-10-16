@@ -1,3 +1,4 @@
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -32,6 +33,7 @@ public class SetMain {
         Set<String> words = new HashSet<>();
         String sentence = "one day in the year of the fox";
         String[] arrayWords = sentence.split(" ");
+        words.addAll(Arrays.asList(arrayWords));
 
     }
 }
