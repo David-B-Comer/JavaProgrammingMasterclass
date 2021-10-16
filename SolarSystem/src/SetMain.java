@@ -35,5 +35,9 @@ public class SetMain {
         String[] arrayWords = sentence.split(" ");
         words.addAll(Arrays.asList(arrayWords));
 
+        for (String s : words) {
+            System.out.println(s);
+        }
+
     }
 }
